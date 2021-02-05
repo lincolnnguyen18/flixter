@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "98dd8e86bba000dccf68595dc597351d"
+build_time: [1612505034, 855973000]
+inputs:
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/AppDelegate.swift": [1612501907, 837025047]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/SceneDelegate.swift": [1612501907, 849683193]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/MoviesViewController.swift": [1612505034, 243058784]
