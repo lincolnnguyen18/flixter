@@ -7,17 +7,17 @@
 	<string>Dispatch</string>
 	<string>CoreImage</string>
 	<string>CoreGraphics</string>
-	<string>flixter</string>
 	<string>WatchKit</string>
+	<string>flixter</string>
 	<string>XCTest</string>
 	<string>AlamofireImage</string>
 	<string>CoreData</string>
 	<string>MobileCoreServices</string>
 	<string>AppKit</string>
-	<string>Foundation</string>
-	<string>Cocoa</string>
 	<string>UIKit</string>
+	<string>Cocoa</string>
 	<string>Combine</string>
+	<string>Foundation</string>
 	<string>SystemConfiguration</string>
 </array>
 </plist>

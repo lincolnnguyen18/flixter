@@ -6,35 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1D96832B-6358-421B-BAD0-6BAB34BCFCA7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>1D96832B-6358-421B-BAD0-6BAB34BCFCA7.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
-			<key>timeStartedRecording</key>
-			<real>634202178.181916</real>
-			<key>timeStoppedRecording</key>
-			<real>634202185.53525198</real>
-			<key>title</key>
-			<string>Build target flixter</string>
-			<key>uniqueIdentifier</key>
-			<string>1D96832B-6358-421B-BAD0-6BAB34BCFCA7</string>
-		</dict>
-		<key>22C668C4-CB83-4CFE-BE74-13EB2D920B11</key>
+		<key>07E43AD6-9442-48EA-8E70-DFD3FA6070A2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,63 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>22C668C4-CB83-4CFE-BE74-13EB2D920B11.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Alamofire-ghcqkqnjnhoowxfxcvzjlwwidumv</string>
-			<key>timeStartedRecording</key>
-			<real>634201872.83471298</real>
-			<key>timeStoppedRecording</key>
-			<real>634201905.942361</real>
-			<key>title</key>
-			<string>Build target Alamofire</string>
-			<key>uniqueIdentifier</key>
-			<string>22C668C4-CB83-4CFE-BE74-13EB2D920B11</string>
-		</dict>
-		<key>3E70E98F-D36E-42D8-85C5-FA7053B08E6F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>3E70E98F-D36E-42D8-85C5-FA7053B08E6F.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>AlamofireImage-ghcqkqnjnhoowxfxcvzjlwwidumv</string>
-			<key>timeStartedRecording</key>
-			<real>634201872.87121999</real>
-			<key>timeStoppedRecording</key>
-			<real>634201906.39741004</real>
-			<key>title</key>
-			<string>Build target AlamofireImage</string>
-			<key>uniqueIdentifier</key>
-			<string>3E70E98F-D36E-42D8-85C5-FA7053B08E6F</string>
-		</dict>
-		<key>D3BFD57A-B71E-4856-8EBE-9CF4B6D0DE03</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>D3BFD57A-B71E-4856-8EBE-9CF4B6D0DE03.xcactivitylog</string>
+			<string>07E43AD6-9442-48EA-8E70-DFD3FA6070A2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -110,13 +26,97 @@
 			<key>signature</key>
 			<string>Pods-flixter-ghcqkqnjnhoowxfxcvzjlwwidumv</string>
 			<key>timeStartedRecording</key>
-			<real>634201872.86953497</real>
+			<real>634253909.19058895</real>
 			<key>timeStoppedRecording</key>
-			<real>634201906.47917795</real>
+			<real>634253909.19733799</real>
 			<key>title</key>
 			<string>Build target Pods-flixter</string>
 			<key>uniqueIdentifier</key>
-			<string>D3BFD57A-B71E-4856-8EBE-9CF4B6D0DE03</string>
+			<string>07E43AD6-9442-48EA-8E70-DFD3FA6070A2</string>
+		</dict>
+		<key>36858E48-A084-4B01-B0BB-577B66E23A9B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>36858E48-A084-4B01-B0BB-577B66E23A9B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
+			<key>timeStartedRecording</key>
+			<real>634256340.298859</real>
+			<key>timeStoppedRecording</key>
+			<real>634256342.00440395</real>
+			<key>title</key>
+			<string>Build target flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>36858E48-A084-4B01-B0BB-577B66E23A9B</string>
+		</dict>
+		<key>490DD22A-9CE2-43AF-B72A-DCE7B8482EF5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>490DD22A-9CE2-43AF-B72A-DCE7B8482EF5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Alamofire-ghcqkqnjnhoowxfxcvzjlwwidumv</string>
+			<key>timeStartedRecording</key>
+			<real>634253908.31082499</real>
+			<key>timeStoppedRecording</key>
+			<real>634253908.32087398</real>
+			<key>title</key>
+			<string>Build target Alamofire</string>
+			<key>uniqueIdentifier</key>
+			<string>490DD22A-9CE2-43AF-B72A-DCE7B8482EF5</string>
+		</dict>
+		<key>EFF16185-C417-4550-8C62-9F86BFCE8676</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>EFF16185-C417-4550-8C62-9F86BFCE8676.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>AlamofireImage-ghcqkqnjnhoowxfxcvzjlwwidumv</string>
+			<key>timeStartedRecording</key>
+			<real>634253908.32122099</real>
+			<key>timeStoppedRecording</key>
+			<real>634253909.18937504</real>
+			<key>title</key>
+			<string>Build target AlamofireImage</string>
+			<key>uniqueIdentifier</key>
+			<string>EFF16185-C417-4550-8C62-9F86BFCE8676</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
