@@ -24,4 +24,5 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### Notes
 Describe any challenges encountered while building the app.
 Imported Alamofire instead of AlamofireImage. Wasted a bit of time on figuring that out but otherwise not too challenging so far. Interacting with the API and seeing the movies show up was fun though.
+
 Update: Pulling from git in xcode reset my whole project. Had to redo. This was the biggest challenge I faced.
