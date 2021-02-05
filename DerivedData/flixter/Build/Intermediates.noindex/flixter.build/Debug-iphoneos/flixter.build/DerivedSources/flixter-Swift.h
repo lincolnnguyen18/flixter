@@ -220,10 +220,23 @@ SWIFT_CLASS("_TtC7flixter11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UITableViewCell;
-@class NSBundle;
+@class UILabel;
+@class UIImageView;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC7flixter9MovieCell")
+@interface MovieCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified synopsisLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified posterView;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class NSBundle;
 
 SWIFT_CLASS("_TtC7flixter20MoviesViewController")
 @interface MoviesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>

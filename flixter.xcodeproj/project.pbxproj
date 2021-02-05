@@ -15,6 +15,7 @@
 		D4971EEE25CD0B1900F80173 /* flixterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4971EED25CD0B1900F80173 /* flixterTests.swift */; };
 		D4971EF925CD0B1900F80173 /* flixterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4971EF825CD0B1900F80173 /* flixterUITests.swift */; };
 		D4971F0D25CD0E6700F80173 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4971F0C25CD0E6700F80173 /* MoviesViewController.swift */; };
+		D4971F1225CD1D1E00F80173 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4971F1125CD1D1E00F80173 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D4971EF825CD0B1900F80173 /* flixterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flixterUITests.swift; sourceTree = "<group>"; };
 		D4971EFA25CD0B1900F80173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4971F0C25CD0E6700F80173 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		D4971F1125CD1D1E00F80173 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D4971ED825CD0B1300F80173 /* SceneDelegate.swift */,
 				D4971EDC25CD0B1300F80173 /* Main.storyboard */,
 				D4971F0C25CD0E6700F80173 /* MoviesViewController.swift */,
+				D4971F1125CD1D1E00F80173 /* MovieCell.swift */,
 				D4971EDF25CD0B1800F80173 /* Assets.xcassets */,
 				D4971EE125CD0B1800F80173 /* LaunchScreen.storyboard */,
 				D4971EE425CD0B1800F80173 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				D4971ED725CD0B1300F80173 /* AppDelegate.swift in Sources */,
 				D4971ED925CD0B1300F80173 /* SceneDelegate.swift in Sources */,
+				D4971F1225CD1D1E00F80173 /* MovieCell.swift in Sources */,
 				D4971F0D25CD0E6700F80173 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
