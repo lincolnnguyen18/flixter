@@ -6,8 +6,8 @@ provides-nominal:
 provides-member:
 - ["7flixter26MovieTrailerViewControllerC", ""]
 provides-dynamic-lookup:
+- "key"
 - "movieId"
-- "trailers"
 - "viewDidLoad"
 depends-top-level:
 - !private "+"
@@ -31,106 +31,108 @@ depends-top-level:
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
 - !private ["9Alamofire0A8ExtendedP", "default"]
-- ["9Alamofire0A8ExtendedP", "init"]
-- ["Sa", "init"]
+- !private ["9Alamofire0A8ExtendedP", "subscript"]
+- !private ["Sa", "subscript"]
 - ["SK", ""]
-- ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
 - !private ["s7CVarArgP", "JSONSerialization"]
 - !private ["s7CVarArgP", "OperationQueue"]
-- ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "String"]
 - !private ["s7CVarArgP", "URL"]
 - !private ["s7CVarArgP", "URLRequest"]
 - !private ["s7CVarArgP", "URLSession"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "dataTask"]
 - !private ["s7CVarArgP", "default"]
-- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "key"]
 - !private ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "movieId"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "resume"]
 - !private ["s7CVarArgP", "subscript"]
-- !private ["s7CVarArgP", "trailers"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["So23NSURLRequestCachePolicyV", "reloadIgnoringLocalCacheData"]
 - ["Sl", ""]
-- ["Sl", "init"]
+- !private ["Sl", "init"]
 - !private ["Sl", "subscript"]
 - ["SL", ""]
 - !private ["SL", "init"]
-- ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
 - !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
-- ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
 - !private ["s28CustomDebugStringConvertibleP", "URL"]
 - !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
 - !private ["s28CustomDebugStringConvertibleP", "URLSession"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "dataTask"]
 - !private ["s28CustomDebugStringConvertibleP", "default"]
-- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
 - !private ["s28CustomDebugStringConvertibleP", "main"]
 - !private ["s28CustomDebugStringConvertibleP", "movieId"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "resume"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
-- !private ["s28CustomDebugStringConvertibleP", "trailers"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
-- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "JSONSerialization"]
 - !private ["s23CustomStringConvertibleP", "OperationQueue"]
-- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "String"]
 - !private ["s23CustomStringConvertibleP", "URL"]
 - !private ["s23CustomStringConvertibleP", "URLRequest"]
 - !private ["s23CustomStringConvertibleP", "URLSession"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "dataTask"]
 - !private ["s23CustomStringConvertibleP", "default"]
-- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "key"]
 - !private ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "movieId"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "resume"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
-- !private ["s23CustomStringConvertibleP", "trailers"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
-- ["10Foundation12DataProtocolP", ""]
-- ["10Foundation12DataProtocolP", "init"]
-- ["Se", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "init"]
 - !private ["Se", "subscript"]
 - !private ["SD", "subscript"]
-- ["SE", "init"]
+- !private ["SE", "init"]
 - !private ["SE", "subscript"]
 - !private ["SQ", "ArrayLiteralElement"]
 - !private ["SQ", "Element"]
 - !private ["SQ", "JSONSerialization"]
 - !private ["SQ", "OperationQueue"]
-- ["SQ", "String"]
+- !private ["SQ", "String"]
 - !private ["SQ", "URL"]
 - !private ["SQ", "URLRequest"]
 - !private ["SQ", "URLSession"]
 - ["SQ", ""]
 - !private ["SQ", "dataTask"]
 - !private ["SQ", "default"]
-- ["SQ", "init"]
+- !private ["SQ", "init"]
 - !private ["SQ", "jsonObject"]
+- !private ["SQ", "key"]
 - !private ["SQ", "main"]
 - !private ["SQ", "movieId"]
 - !private ["SQ", "print"]
 - !private ["SQ", "reloadIgnoringLocalCacheData"]
 - !private ["SQ", "resume"]
 - !private ["SQ", "subscript"]
-- !private ["SQ", "trailers"]
 - !private ["SQ", "viewDidLoad"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
 - !private ["s25ExpressibleByArrayLiteralP", "Element"]
-- ["s25ExpressibleByArrayLiteralP", ""]
-- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
@@ -143,22 +145,22 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["SH", "JSONSerialization"]
 - !private ["SH", "OperationQueue"]
-- ["SH", "String"]
+- !private ["SH", "String"]
 - !private ["SH", "URL"]
 - !private ["SH", "URLRequest"]
 - !private ["SH", "URLSession"]
 - ["SH", ""]
 - !private ["SH", "dataTask"]
 - !private ["SH", "default"]
-- ["SH", "init"]
+- !private ["SH", "init"]
 - !private ["SH", "jsonObject"]
+- !private ["SH", "key"]
 - !private ["SH", "main"]
 - !private ["SH", "movieId"]
 - !private ["SH", "print"]
 - !private ["SH", "reloadIgnoringLocalCacheData"]
 - !private ["SH", "resume"]
 - !private ["SH", "subscript"]
-- !private ["SH", "trailers"]
 - !private ["SH", "viewDidLoad"]
 - !private ["So19NSJSONSerializationC", "jsonObject"]
 - ["s25LosslessStringConvertibleP", ""]
@@ -174,13 +176,13 @@ depends-member:
 - ["7flixter26MovieTrailerViewControllerC", ""]
 - ["7flixter26MovieTrailerViewControllerC", "deinit"]
 - ["7flixter26MovieTrailerViewControllerC", "init"]
+- ["7flixter26MovieTrailerViewControllerC", "key"]
 - ["7flixter26MovieTrailerViewControllerC", "movieId"]
 - !private ["7flixter26MovieTrailerViewControllerC", "print"]
-- ["7flixter26MovieTrailerViewControllerC", "trailers"]
 - ["7flixter26MovieTrailerViewControllerC", "viewDidLoad"]
-- ["SM", ""]
-- ["SM", "init"]
-- ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - ["So8NSCodingP", "Int"]
 - !private ["So8NSCodingP", "JSONSerialization"]
 - !private ["So8NSCodingP", "OperationQueue"]
@@ -190,9 +192,9 @@ depends-member:
 - !private ["So8NSCodingP", "URLSession"]
 - ["So8NSCodingP", ""]
 - ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "key"]
 - ["So8NSCodingP", "movieId"]
 - !private ["So8NSCodingP", "print"]
-- ["So8NSCodingP", "trailers"]
 - ["So8NSCodingP", "viewDidLoad"]
 - !private ["So9NSCopyingP", "default"]
 - !private ["So9NSCopyingP", "resume"]
@@ -205,9 +207,9 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "URLSession"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "key"]
 - ["So26NSExtensionRequestHandlingP", "movieId"]
 - !private ["So26NSExtensionRequestHandlingP", "print"]
-- ["So26NSExtensionRequestHandlingP", "trailers"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So8NSObjectC", "Int"]
 - !private ["So8NSObjectC", "JSONObjectWithData"]
@@ -225,12 +227,12 @@ depends-member:
 - !private ["So8NSObjectC", "default"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "jsonObject"]
+- ["So8NSObjectC", "key"]
 - !private ["So8NSObjectC", "main"]
 - ["So8NSObjectC", "movieId"]
 - !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "resume"]
 - !private ["So8NSObjectC", "sessionWithConfiguration"]
-- ["So8NSObjectC", "trailers"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectP", "Int"]
 - !private ["So8NSObjectP", "JSONObjectWithData"]
@@ -248,12 +250,12 @@ depends-member:
 - !private ["So8NSObjectP", "default"]
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "jsonObject"]
+- ["So8NSObjectP", "key"]
 - !private ["So8NSObjectP", "main"]
 - ["So8NSObjectP", "movieId"]
 - !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "resume"]
 - !private ["So8NSObjectP", "sessionWithConfiguration"]
-- ["So8NSObjectP", "trailers"]
 - ["So8NSObjectP", "viewDidLoad"]
 - !private ["Sj", ""]
 - !private ["So16NSOperationQueueC", "main"]
@@ -262,10 +264,11 @@ depends-member:
 - !private ["s9OptionSetP", "init"]
 - !private ["So19NSProgressReportingP", "main"]
 - !private ["So19NSProgressReportingP", "resume"]
-- ["Sk", ""]
-- ["Sk", "init"]
-- ["Sm", ""]
-- ["Sm", "init"]
+- !private ["Sk", ""]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
 - !private ["SY", "ArrayLiteralElement"]
 - !private ["SY", "Element"]
 - !private ["SY", ""]
@@ -277,7 +280,7 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["7Combine9SchedulerP", "main"]
 - ["ST", ""]
-- ["ST", "init"]
+- !private ["ST", "init"]
 - !private ["ST", "subscript"]
 - !private ["s10SetAlgebraP", "ArrayLiteralElement"]
 - !private ["s10SetAlgebraP", "Element"]
@@ -299,9 +302,9 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "URLSession"]
 - ["So21UIAppearanceContainerP", ""]
 - ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "key"]
 - ["So21UIAppearanceContainerP", "movieId"]
 - !private ["So21UIAppearanceContainerP", "print"]
-- ["So21UIAppearanceContainerP", "trailers"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "Int"]
 - !private ["So18UIContentContainerP", "JSONSerialization"]
@@ -312,9 +315,9 @@ depends-member:
 - !private ["So18UIContentContainerP", "URLSession"]
 - ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "key"]
 - ["So18UIContentContainerP", "movieId"]
 - !private ["So18UIContentContainerP", "print"]
-- ["So18UIContentContainerP", "trailers"]
 - ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "Int"]
 - !private ["So18UIFocusEnvironmentP", "JSONSerialization"]
@@ -325,9 +328,9 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "URLSession"]
 - ["So18UIFocusEnvironmentP", ""]
 - ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "key"]
 - ["So18UIFocusEnvironmentP", "movieId"]
 - !private ["So18UIFocusEnvironmentP", "print"]
-- ["So18UIFocusEnvironmentP", "trailers"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "Int"]
 - !private ["So30UIPasteConfigurationSupportingP", "JSONSerialization"]
@@ -338,9 +341,9 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "URLSession"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "key"]
 - ["So30UIPasteConfigurationSupportingP", "movieId"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
-- ["So30UIPasteConfigurationSupportingP", "trailers"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So11UIResponderC", "Int"]
 - !private ["So11UIResponderC", "JSONSerialization"]
@@ -351,9 +354,9 @@ depends-member:
 - !private ["So11UIResponderC", "URLSession"]
 - ["So11UIResponderC", ""]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "key"]
 - ["So11UIResponderC", "movieId"]
 - !private ["So11UIResponderC", "print"]
-- ["So11UIResponderC", "trailers"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "Int"]
 - !private ["So30UIResponderStandardEditActionsP", "JSONSerialization"]
@@ -364,9 +367,9 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "URLSession"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "key"]
 - ["So30UIResponderStandardEditActionsP", "movieId"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
-- ["So30UIResponderStandardEditActionsP", "trailers"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "Int"]
 - !private ["So16UIStateRestoringP", "JSONSerialization"]
@@ -377,9 +380,9 @@ depends-member:
 - !private ["So16UIStateRestoringP", "URLSession"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "key"]
 - ["So16UIStateRestoringP", "movieId"]
 - !private ["So16UIStateRestoringP", "print"]
-- ["So16UIStateRestoringP", "trailers"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "Int"]
 - !private ["So18UITraitEnvironmentP", "JSONSerialization"]
@@ -390,9 +393,9 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "URLSession"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "key"]
 - ["So18UITraitEnvironmentP", "movieId"]
 - !private ["So18UITraitEnvironmentP", "print"]
-- ["So18UITraitEnvironmentP", "trailers"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "Int"]
 - !private ["So23UIUserActivityRestoringP", "JSONSerialization"]
@@ -403,9 +406,9 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "URLSession"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "key"]
 - ["So23UIUserActivityRestoringP", "movieId"]
 - !private ["So23UIUserActivityRestoringP", "print"]
-- ["So23UIUserActivityRestoringP", "trailers"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So16UIViewControllerC", "Int"]
 - !private ["So16UIViewControllerC", "JSONSerialization"]
@@ -416,9 +419,9 @@ depends-member:
 - !private ["So16UIViewControllerC", "URLSession"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "key"]
 - ["So16UIViewControllerC", "movieId"]
 - !private ["So16UIViewControllerC", "print"]
-- ["So16UIViewControllerC", "trailers"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["10Foundation3URLV", "init"]
 - !private ["9Alamofire14URLConvertibleP", "init"]
@@ -430,9 +433,9 @@ depends-member:
 - !private ["So20NSURLSessionDataTaskC", "resume"]
 - ["So16NSURLSessionTaskC", ""]
 - !private ["So16NSURLSessionTaskC", "resume"]
-- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
-- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
@@ -440,12 +443,12 @@ depends-member:
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
-- ["s19_HasContiguousBytesP", "init"]
-- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
-- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
@@ -454,15 +457,15 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "key"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "movieId"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "trailers"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONSerialization"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OperationQueue"]
-- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLRequest"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSession"]
@@ -471,35 +474,35 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jsonObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "key"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "movieId"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trailers"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
 - !private ["s21_ObjectiveCBridgeableP", ""]
-- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
-- "9Alamofire0A8ExtendedP"
-- "Sa"
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
 - "SK"
 - "s7CVarArgP"
 - !private "So23NSURLRequestCachePolicyV"
 - "Sl"
 - "SL"
-- "10Foundation15ContiguousBytesP"
+- !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
-- "s17CustomReflectableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "10Foundation12DataProtocolP"
-- "Se"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
 - !private "SD"
-- "SE"
+- !private "SE"
 - "SQ"
 - !private "s5ErrorP"
-- "s25ExpressibleByArrayLiteralP"
+- !private "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
@@ -511,8 +514,8 @@ depends-nominal:
 - "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "7flixter26MovieTrailerViewControllerC"
-- "SM"
-- "10Foundation19MutableDataProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
@@ -522,8 +525,8 @@ depends-nominal:
 - !private "So16NSOperationQueueC"
 - !private "s9OptionSetP"
 - !private "So19NSProgressReportingP"
-- "Sk"
-- "Sm"
+- !private "Sk"
+- !private "Sm"
 - !private "SY"
 - !private "So20NSJSONReadingOptionsV"
 - !private "10Foundation20ReferenceConvertibleP"
@@ -553,19 +556,19 @@ depends-nominal:
 - !private "So25NSURLSessionConfigurationC"
 - !private "So20NSURLSessionDataTaskC"
 - "So16NSURLSessionTaskC"
-- "s14_ArrayProtocolP"
+- !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
-- "s24_DestructorSafeContainerP"
+- !private "s24_DestructorSafeContainerP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
-- "s19_HasContiguousBytesP"
-- "s35_HasCustomAnyHashableRepresentationP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
-- "s21_ObjectiveCBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
@@ -604,4 +607,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "907b3c55c07e8cc1a66c75189b4af03e"
+interface-hash: "4d9990a0e3eed996cf898276b5ca97f6"

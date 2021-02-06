@@ -8,7 +8,7 @@
 import UIKit
 
 class MovieTrailerViewController: UIViewController {
-    var trailers = [[String:Any]]()
+    var key: String!
     var movieId: Int!
     
     override func viewDidLoad() {
@@ -26,8 +26,9 @@ class MovieTrailerViewController: UIViewController {
                 // TODO: Get trailers
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                 // TODO: Store the trailers in a property to use elsewhere
-                self.trailers = dataDictionary["results"] as! [[String:Any]]
-                print(self.trailers)
+                let trailers = dataDictionary["results"] as! [[String:Any]]
+                self.key = trailers[0]["key"] as! String
+                print(self.key)
             }
         }
         task.resume()
