@@ -85,9 +85,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="266"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Jj-Tf-MWM">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Jj-Tf-MWM">
                                 <rect key="frame" x="12" y="186" width="102" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5Ab-Q9-Yeb" appends="YES" id="Mga-29-a6r"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32v-eC-azz">
                                 <rect key="frame" x="122" y="274" width="272" height="24"/>
@@ -124,6 +128,12 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xw3-GM-fpP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5Ab-Q9-Yeb">
+                    <connections>
+                        <action selector="showTrailer:" destination="MRi-lW-qes" id="cei-XU-fdr"/>
+                        <segue destination="hvM-76-hlf" kind="presentation" id="zII-xH-XWL"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="941" y="1585"/>
         </scene>
@@ -235,6 +245,51 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U5g-pw-oQX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1886.9565217391305" y="125.54347826086958"/>
+        </scene>
+        <!--Trailer-->
+        <scene sceneID="vta-2O-YIU">
+            <objects>
+                <viewController id="ADA-tG-lFo" customClass="MovieTrailerViewController" customModule="flixter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yMK-Ix-gcz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mc3-ZI-mBf">
+                                <rect key="frame" x="0.0" y="56" width="414" height="680"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jcv-Fs-mxY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Trailer" id="PQK-Xx-fbb" customClass="movie"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kgo-CW-9u2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940.57971014492762" y="3077.4456521739135"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="scu-bv-xZE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hvM-76-hlf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZgO-xV-94W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ADA-tG-lFo" kind="relationship" relationship="rootViewController" id="WMG-s0-Yc8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rqw-zU-ePE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940.57971014492762" y="2350.271739130435"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

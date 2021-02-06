@@ -40,6 +40,74 @@
 			<key>uniqueIdentifier</key>
 			<string>07D7736F-AF99-4463-B0C3-D06BBBB8324C</string>
 		</dict>
+		<key>097AFDBD-DD91-4AA6-BEB4-DBF4D2211C99</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>097AFDBD-DD91-4AA6-BEB4-DBF4D2211C99.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634321550.49962795</real>
+			<key>timeStoppedRecording</key>
+			<real>634321553.20563197</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>097AFDBD-DD91-4AA6-BEB4-DBF4D2211C99</string>
+		</dict>
+		<key>106325AF-49E7-4BBF-97CA-153B04CC7548</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>106325AF-49E7-4BBF-97CA-153B04CC7548.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634320423.66772699</real>
+			<key>timeStoppedRecording</key>
+			<real>634320430.96681798</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>106325AF-49E7-4BBF-97CA-153B04CC7548</string>
+		</dict>
 		<key>10CBBB26-E649-41AD-8DA0-DB3A8A303EFB</key>
 		<dict>
 			<key>className</key>
@@ -550,6 +618,40 @@
 			<key>uniqueIdentifier</key>
 			<string>37FAC1FB-2E27-464A-937C-064460544EEF</string>
 		</dict>
+		<key>406FEB18-D247-4CD5-B545-605E31DCE9A5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>406FEB18-D247-4CD5-B545-605E31DCE9A5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634322173.74890304</real>
+			<key>timeStoppedRecording</key>
+			<real>634322180.004444</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>406FEB18-D247-4CD5-B545-605E31DCE9A5</string>
+		</dict>
 		<key>45872D04-96C4-4B48-B814-07817C9EB5A2</key>
 		<dict>
 			<key>className</key>
@@ -685,6 +787,40 @@
 			<string>Build flixter</string>
 			<key>uniqueIdentifier</key>
 			<string>52609135-4CB9-4F10-91D3-FF8C9FDD0F9D</string>
+		</dict>
+		<key>59FAC55C-CC99-461B-9763-E573F23FE756</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>59FAC55C-CC99-461B-9763-E573F23FE756.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634321702.83137202</real>
+			<key>timeStoppedRecording</key>
+			<real>634321706.33026195</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>59FAC55C-CC99-461B-9763-E573F23FE756</string>
 		</dict>
 		<key>60B16C54-3707-40AB-ADEE-682887B543D3</key>
 		<dict>
@@ -1026,6 +1162,40 @@
 			<key>uniqueIdentifier</key>
 			<string>6ED5E581-755A-4CD7-9094-95F90D577CB1</string>
 		</dict>
+		<key>6FB18017-413F-4B36-8FAC-428796696AB5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6FB18017-413F-4B36-8FAC-428796696AB5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634322345.61849701</real>
+			<key>timeStoppedRecording</key>
+			<real>634322347.91532195</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>6FB18017-413F-4B36-8FAC-428796696AB5</string>
+		</dict>
 		<key>703931A4-8983-45DC-A235-34141E9EC1DC</key>
 		<dict>
 			<key>className</key>
@@ -1298,6 +1468,74 @@
 			<key>uniqueIdentifier</key>
 			<string>7BEA3A8A-FD69-4EB5-B6FB-71693BBF128B</string>
 		</dict>
+		<key>7FC187F0-9915-4FE9-A359-1DAF111C13F1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7FC187F0-9915-4FE9-A359-1DAF111C13F1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634320655.66475797</real>
+			<key>timeStoppedRecording</key>
+			<real>634320657.002141</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>7FC187F0-9915-4FE9-A359-1DAF111C13F1</string>
+		</dict>
+		<key>80ECBE9E-9FB9-48E9-8FC8-9E6FCE396E0C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>80ECBE9E-9FB9-48E9-8FC8-9E6FCE396E0C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634320618.39537501</real>
+			<key>timeStoppedRecording</key>
+			<real>634320619.81147397</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>80ECBE9E-9FB9-48E9-8FC8-9E6FCE396E0C</string>
+		</dict>
 		<key>87355D1A-4113-4424-8D04-8AEEAFB23B7F</key>
 		<dict>
 			<key>className</key>
@@ -1467,6 +1705,40 @@
 			<string>Build flixter</string>
 			<key>uniqueIdentifier</key>
 			<string>97B2E1CD-4F64-4BF1-BBE7-F99C7B85867D</string>
+		</dict>
+		<key>9D28D318-467E-4A44-98D0-11E575154B75</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9D28D318-467E-4A44-98D0-11E575154B75.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634320526.49622798</real>
+			<key>timeStoppedRecording</key>
+			<real>634320531.77785397</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>9D28D318-467E-4A44-98D0-11E575154B75</string>
 		</dict>
 		<key>9DB2B561-5154-4099-93CA-D40C3FD4A644</key>
 		<dict>
@@ -1842,6 +2114,40 @@
 			<key>uniqueIdentifier</key>
 			<string>D41A2AFE-523C-4BB3-9767-9FD9E0C2BDE0</string>
 		</dict>
+		<key>DAB0E904-BCC7-47AF-87A7-8DB0E2773342</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DAB0E904-BCC7-47AF-87A7-8DB0E2773342.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634320884.19423401</real>
+			<key>timeStoppedRecording</key>
+			<real>634320892.37466598</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>DAB0E904-BCC7-47AF-87A7-8DB0E2773342</string>
+		</dict>
 		<key>DC8DF536-4C7C-4112-BFFE-AE5E8CBC7C53</key>
 		<dict>
 			<key>className</key>
@@ -1977,6 +2283,40 @@
 			<string>Build flixter</string>
 			<key>uniqueIdentifier</key>
 			<string>E48132A0-FA6E-42F8-B14B-68A69BCF3879</string>
+		</dict>
+		<key>E65B5A1B-5CE4-4296-B910-4ED317882F92</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E65B5A1B-5CE4-4296-B910-4ED317882F92.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>flixter project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>flixter</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build flixter</string>
+			<key>timeStartedRecording</key>
+			<real>634322214.11494303</real>
+			<key>timeStoppedRecording</key>
+			<real>634322220.19269097</real>
+			<key>title</key>
+			<string>Build flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>E65B5A1B-5CE4-4296-B910-4ED317882F92</string>
 		</dict>
 		<key>E85B6D6F-6BB5-42D8-8007-656802FEC305</key>
 		<dict>

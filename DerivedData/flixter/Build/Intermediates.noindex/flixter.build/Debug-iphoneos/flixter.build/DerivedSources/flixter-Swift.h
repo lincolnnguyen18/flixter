@@ -236,6 +236,7 @@ SWIFT_CLASS("_TtC7flixter9MovieCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIStoryboardSegue;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC7flixter26MovieDetailsViewController")
@@ -246,6 +247,7 @@ SWIFT_CLASS("_TtC7flixter26MovieDetailsViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified synopsisLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified releaseDateLabel;
 - (void)viewDidLoad;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -259,7 +261,6 @@ SWIFT_CLASS("_TtC7flixter13MovieGridCell")
 @end
 
 @class UICollectionView;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC7flixter23MovieGridViewController")
 @interface MovieGridViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
@@ -268,6 +269,14 @@ SWIFT_CLASS("_TtC7flixter23MovieGridViewController")
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC7flixter26MovieTrailerViewController")
+@interface MovieTrailerViewController : UIViewController
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

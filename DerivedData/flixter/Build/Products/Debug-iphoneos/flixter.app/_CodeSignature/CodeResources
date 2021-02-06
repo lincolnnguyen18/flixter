@@ -24,29 +24,37 @@
 		<data>
 		ykOG0Wjh7WJubNpo76veeTpogig=
 		</data>
+		<key>Base.lproj/Main.storyboardc/ADA-tG-lFo-view-yMK-Ix-gcz.nib</key>
+		<data>
+		LEBedv0MXE1I1lzLOqYm2GLGMsc=
+		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		mWAyeeu6hWqjFbR9vZeEAgCF0Yk=
+		Oct9m0O496eUF+LRnS9qLHj0slg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		MZVzh85hXdHDaNQGCEDAmnV77t4=
+		3a9QUaBNC6XjxNoUhNgi6YUkbjY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/LJU-en-hmF-view-LH7-Ht-4m2.nib</key>
 		<data>
-		6wBNJti7DdoUFY8hNYdCsz4mu9A=
+		i5dhSBqbr1q78W/YN6fWqFSbft8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/MRi-lW-qes-view-yeu-Cu-1DD.nib</key>
 		<data>
-		hnq1/kkV0t8rhXfc9JL0UOe2HDg=
+		n85otK11tdAXp7ZKgQ0JPKpDCBw=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-hvM-76-hlf.nib</key>
+		<data>
+		quIE9pFvweP8kAikHQPbeSMvma0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-kpc-LV-w43.nib</key>
 		<data>
-		QZSxaLCZiLbBnWanFeGO4IGafh0=
+		7ZPPff3zghZp6Rd83VqIg47ouQE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-MRi-lW-qes.nib</key>
 		<data>
-		CGO91d3Uqb5DzTHJOO5dIS286N0=
+		uFzOJ4P+cpQUtldLcNrdK/KNJ3E=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -122,46 +130,60 @@
 			8S7+uKGopqHgqX3po1mTQZTIq2MEBkzCVzl89FXxQlk=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/ADA-tG-lFo-view-yMK-Ix-gcz.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jv5jUGaGM9VLc0ERliz9TZaAexhls1KmI83rPFTYSO0=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			972HcDsGgsBBqcQ+nV2PW14Fu9RJZSincYYEBvEq8ik=
+			MaACK1b4/fQBUU+sKCeDR2LY/Fo3f4zR3SscdhJB6bU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1rK21wMXop9Zltq7ABuBbUwklfZyK4BIXzSvp1Pt82s=
+			UqUMMb4PPdn/RkmUzORzvjAQPG0tfoIRCQef6959djo=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/LJU-en-hmF-view-LH7-Ht-4m2.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G4FG/3I5+ie00PxoBUoazPhwxCQ4rOXpyLx6Q3TGJfE=
+			Lo2iMDaR2zHcrNOl6a2ZuAtteJU+gcohcTZGu5T7QoE=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/MRi-lW-qes-view-yeu-Cu-1DD.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vWemerO4ur96fvFtTSRXmjEV2tApjEtgkuvqj41ksIQ=
+			9d4kR/2YbTDLvtbsVTZThktSFxHlyJE5oWcCjPvK5l0=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-hvM-76-hlf.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i7EJCaiyR2DvTP1owPRczioSqgdFwwoEcqj6XRTc7uk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-kpc-LV-w43.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MuRn9Bj/6ZVIfsZt9Nwwe6KCzw1VKWs43pWLdDCFFVY=
+			Nm/dCkLLhx7U+wmbMiELuwPCq5rZM1ilH2jPtZA0QSY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-MRi-lW-qes.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FMs3vQLgpxOM4XeA+rJcGuQW3xpEPnLMjUCubEJHK6M=
+			+14I3pk898BEzFuiD/8T3tojUJSfnFlV04jQub6I95k=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>

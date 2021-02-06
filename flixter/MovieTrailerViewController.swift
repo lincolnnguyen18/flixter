@@ -1,0 +1,31 @@
+//
+//  MovieTrailerViewController.swift
+//  flixter
+//
+//  Created by Lincoln Nguyen on 2/6/21.
+//
+
+import UIKit
+
+class MovieTrailerViewController: UIViewController {
+    
+    var movieId: Int!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        print(movieId)
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
