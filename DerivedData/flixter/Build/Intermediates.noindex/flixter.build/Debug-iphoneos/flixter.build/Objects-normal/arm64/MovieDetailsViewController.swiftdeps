@@ -9,6 +9,7 @@ provides-dynamic-lookup:
 - "backdropView"
 - "movie"
 - "posterView"
+- "releaseDateLabel"
 - "synopsisLabel"
 - "titleLabel"
 - "viewDidLoad"
@@ -28,6 +29,7 @@ depends-top-level:
 - !private "movie"
 - !private "posterView"
 - !private "print"
+- !private "releaseDateLabel"
 - !private "synopsisLabel"
 - !private "titleLabel"
 depends-member:
@@ -45,6 +47,7 @@ depends-member:
 - !private ["s7CVarArgP", "movie"]
 - !private ["s7CVarArgP", "posterView"]
 - !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "releaseDateLabel"]
 - !private ["s7CVarArgP", "sizeToFit"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "synopsisLabel"]
@@ -62,6 +65,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "movie"]
 - !private ["s28CustomDebugStringConvertibleP", "posterView"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "releaseDateLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "sizeToFit"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "synopsisLabel"]
@@ -80,6 +84,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "movie"]
 - !private ["s23CustomStringConvertibleP", "posterView"]
 - !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "releaseDateLabel"]
 - !private ["s23CustomStringConvertibleP", "sizeToFit"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "synopsisLabel"]
@@ -105,6 +110,7 @@ depends-member:
 - !private ["SQ", "movie"]
 - !private ["SQ", "posterView"]
 - !private ["SQ", "print"]
+- !private ["SQ", "releaseDateLabel"]
 - !private ["SQ", "sizeToFit"]
 - !private ["SQ", "subscript"]
 - !private ["SQ", "synopsisLabel"]
@@ -128,6 +134,7 @@ depends-member:
 - !private ["SH", "movie"]
 - !private ["SH", "posterView"]
 - !private ["SH", "print"]
+- !private ["SH", "releaseDateLabel"]
 - !private ["SH", "sizeToFit"]
 - !private ["SH", "subscript"]
 - !private ["SH", "synopsisLabel"]
@@ -146,6 +153,7 @@ depends-member:
 - ["7flixter26MovieDetailsViewControllerC", "movie"]
 - ["7flixter26MovieDetailsViewControllerC", "posterView"]
 - !private ["7flixter26MovieDetailsViewControllerC", "print"]
+- ["7flixter26MovieDetailsViewControllerC", "releaseDateLabel"]
 - ["7flixter26MovieDetailsViewControllerC", "synopsisLabel"]
 - ["7flixter26MovieDetailsViewControllerC", "titleLabel"]
 - ["7flixter26MovieDetailsViewControllerC", "viewDidLoad"]
@@ -160,6 +168,7 @@ depends-member:
 - ["So8NSCodingP", "movie"]
 - ["So8NSCodingP", "posterView"]
 - !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "releaseDateLabel"]
 - !private ["So8NSCodingP", "sizeToFit"]
 - ["So8NSCodingP", "synopsisLabel"]
 - !private ["So8NSCodingP", "text"]
@@ -175,6 +184,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "movie"]
 - ["So26NSExtensionRequestHandlingP", "posterView"]
 - !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "releaseDateLabel"]
 - ["So26NSExtensionRequestHandlingP", "synopsisLabel"]
 - ["So26NSExtensionRequestHandlingP", "titleLabel"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
@@ -189,6 +199,7 @@ depends-member:
 - ["So8NSObjectC", "movie"]
 - ["So8NSObjectC", "posterView"]
 - !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "releaseDateLabel"]
 - !private ["So8NSObjectC", "sizeToFit"]
 - ["So8NSObjectC", "synopsisLabel"]
 - !private ["So8NSObjectC", "text"]
@@ -205,6 +216,7 @@ depends-member:
 - ["So8NSObjectP", "movie"]
 - ["So8NSObjectP", "posterView"]
 - !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "releaseDateLabel"]
 - !private ["So8NSObjectP", "sizeToFit"]
 - ["So8NSObjectP", "synopsisLabel"]
 - !private ["So8NSObjectP", "text"]
@@ -239,6 +251,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "movie"]
 - ["So21UIAppearanceContainerP", "posterView"]
 - !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "releaseDateLabel"]
 - !private ["So21UIAppearanceContainerP", "sizeToFit"]
 - ["So21UIAppearanceContainerP", "synopsisLabel"]
 - !private ["So21UIAppearanceContainerP", "text"]
@@ -254,6 +267,7 @@ depends-member:
 - ["So18UIContentContainerP", "movie"]
 - ["So18UIContentContainerP", "posterView"]
 - !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "releaseDateLabel"]
 - ["So18UIContentContainerP", "synopsisLabel"]
 - ["So18UIContentContainerP", "titleLabel"]
 - ["So18UIContentContainerP", "viewDidLoad"]
@@ -278,6 +292,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "movie"]
 - ["So18UIFocusEnvironmentP", "posterView"]
 - !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "releaseDateLabel"]
 - !private ["So18UIFocusEnvironmentP", "sizeToFit"]
 - ["So18UIFocusEnvironmentP", "synopsisLabel"]
 - !private ["So18UIFocusEnvironmentP", "text"]
@@ -309,6 +324,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "movie"]
 - ["So30UIPasteConfigurationSupportingP", "posterView"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "releaseDateLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "sizeToFit"]
 - ["So30UIPasteConfigurationSupportingP", "synopsisLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
@@ -325,6 +341,7 @@ depends-member:
 - ["So11UIResponderC", "movie"]
 - ["So11UIResponderC", "posterView"]
 - !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "releaseDateLabel"]
 - !private ["So11UIResponderC", "sizeToFit"]
 - ["So11UIResponderC", "synopsisLabel"]
 - !private ["So11UIResponderC", "text"]
@@ -341,6 +358,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "movie"]
 - ["So30UIResponderStandardEditActionsP", "posterView"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "releaseDateLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "sizeToFit"]
 - ["So30UIResponderStandardEditActionsP", "synopsisLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
@@ -356,6 +374,7 @@ depends-member:
 - ["So16UIStateRestoringP", "movie"]
 - ["So16UIStateRestoringP", "posterView"]
 - !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "releaseDateLabel"]
 - ["So16UIStateRestoringP", "synopsisLabel"]
 - ["So16UIStateRestoringP", "titleLabel"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
@@ -370,6 +389,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "movie"]
 - ["So18UITraitEnvironmentP", "posterView"]
 - !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "releaseDateLabel"]
 - !private ["So18UITraitEnvironmentP", "sizeToFit"]
 - ["So18UITraitEnvironmentP", "synopsisLabel"]
 - !private ["So18UITraitEnvironmentP", "text"]
@@ -386,6 +406,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "movie"]
 - ["So23UIUserActivityRestoringP", "posterView"]
 - !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "releaseDateLabel"]
 - !private ["So23UIUserActivityRestoringP", "sizeToFit"]
 - ["So23UIUserActivityRestoringP", "synopsisLabel"]
 - !private ["So23UIUserActivityRestoringP", "text"]
@@ -405,6 +426,7 @@ depends-member:
 - ["So16UIViewControllerC", "movie"]
 - ["So16UIViewControllerC", "posterView"]
 - !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "releaseDateLabel"]
 - ["So16UIViewControllerC", "synopsisLabel"]
 - ["So16UIViewControllerC", "titleLabel"]
 - ["So16UIViewControllerC", "viewDidLoad"]
@@ -424,6 +446,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "movie"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "posterView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "releaseDateLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sizeToFit"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "synopsisLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
@@ -436,6 +459,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "movie"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "posterView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "releaseDateLabel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sizeToFit"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "synopsisLabel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
@@ -556,4 +580,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6bd2178e847ee1b4700633b5c46ffb62"
+interface-hash: "e899cb57624c735ab66afb520455f3f0"

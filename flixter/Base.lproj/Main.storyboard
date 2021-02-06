@@ -103,6 +103,13 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Emp-2R-TyW">
+                                <rect key="frame" x="122" y="306" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GTw-7s-uWk"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -111,6 +118,7 @@
                     <connections>
                         <outlet property="backdropView" destination="ulk-R6-fyC" id="s3h-p4-paG"/>
                         <outlet property="posterView" destination="7Jj-Tf-MWM" id="VIF-Ux-z6e"/>
+                        <outlet property="releaseDateLabel" destination="Emp-2R-TyW" id="hot-yz-eI8"/>
                         <outlet property="synopsisLabel" destination="fAe-kD-9Wx" id="HoT-UE-5R5"/>
                         <outlet property="titleLabel" destination="32v-eC-azz" id="iqS-mW-2ey"/>
                     </connections>

@@ -14,6 +14,7 @@ class MovieDetailsViewController: UIViewController {
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet weak var releaseDateLabel: UILabel!
     var movie: [String:Any]!
     
     override func viewDidLoad() {
@@ -23,10 +24,13 @@ class MovieDetailsViewController: UIViewController {
         print(movie["title"] ?? "No title available.")
         
         titleLabel.text = movie["title"] as? String
-        titleLabel.sizeToFit()
+        // titleLabel.sizeToFit()
         
         synopsisLabel.text = movie["overview"] as? String
         synopsisLabel.sizeToFit()
+        
+        releaseDateLabel.text = movie["release_date"] as? String
+        releaseDateLabel.sizeToFit()
         
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
