@@ -34,6 +34,34 @@
 			<key>uniqueIdentifier</key>
 			<string>8EF5EC9C-01F1-45E8-B07E-9BF18871D283</string>
 		</dict>
+		<key>B6018A42-AACA-40A8-B70B-E218D043528E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>B6018A42-AACA-40A8-B70B-E218D043528E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
+			<key>timeStartedRecording</key>
+			<real>634277644.17011297</real>
+			<key>timeStoppedRecording</key>
+			<real>634277650.45148003</real>
+			<key>title</key>
+			<string>Build target flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>B6018A42-AACA-40A8-B70B-E218D043528E</string>
+		</dict>
 		<key>BE1A9E78-C87A-4AEC-A83B-1A81A34D6587</key>
 		<dict>
 			<key>className</key>
@@ -61,34 +89,6 @@
 			<string>Build target Alamofire</string>
 			<key>uniqueIdentifier</key>
 			<string>BE1A9E78-C87A-4AEC-A83B-1A81A34D6587</string>
-		</dict>
-		<key>C480F87F-7575-41A5-8E4C-3E42B7CA6748</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>C480F87F-7575-41A5-8E4C-3E42B7CA6748.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
-			<key>timeStartedRecording</key>
-			<real>634276875.661255</real>
-			<key>timeStoppedRecording</key>
-			<real>634276876.781178</real>
-			<key>title</key>
-			<string>Build target flixter</string>
-			<key>uniqueIdentifier</key>
-			<string>C480F87F-7575-41A5-8E4C-3E42B7CA6748</string>
 		</dict>
 		<key>DAB778AE-D758-4D70-8836-915BE274493F</key>
 		<dict>
