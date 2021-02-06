@@ -273,9 +273,11 @@ SWIFT_CLASS("_TtC7flixter23MovieGridViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class WKWebView;
 
 SWIFT_CLASS("_TtC7flixter26MovieTrailerViewController")
 @interface MovieTrailerViewController : UIViewController
+@property (nonatomic, weak) IBOutlet WKWebView * _Null_unspecified webView;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

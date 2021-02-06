@@ -6,10 +6,12 @@
 //
 
 import UIKit
+import WebKit
+import AVKit
 
 class MovieTrailerViewController: UIViewController {
-    var key: String!
     var movieId: Int!
+    @IBOutlet weak var webView: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,14 +29,22 @@ class MovieTrailerViewController: UIViewController {
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                 // TODO: Store the trailers in a property to use elsewhere
                 let trailers = dataDictionary["results"] as! [[String:Any]]
-                self.key = trailers[0]["key"] as! String
-                print(self.key)
+                let key = trailers[0]["key"] as? String
+                print(key ?? "No key found.")
+                self.loadYoutube(videoID: key!)
             }
         }
         task.resume()
     }
     
-
+    func loadYoutube(videoID:String) {
+        print(videoID)
+        guard let youtubeURL = URL(string: "https://www.youtube.com/embed/\(videoID)") else {
+            return
+        }
+        webView.load(URLRequest(url: youtubeURL))
+    }
+    
     /*
     // MARK: - Navigation
 

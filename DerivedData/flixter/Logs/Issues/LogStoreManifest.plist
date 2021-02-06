@@ -6,34 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>311AEC35-2CA1-4AF4-9A4E-8CA7AE7E09E3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>311AEC35-2CA1-4AF4-9A4E-8CA7AE7E09E3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
-			<key>timeStartedRecording</key>
-			<real>634323627.45458102</real>
-			<key>timeStoppedRecording</key>
-			<real>634323630.97956097</real>
-			<key>title</key>
-			<string>Build target flixter</string>
-			<key>uniqueIdentifier</key>
-			<string>311AEC35-2CA1-4AF4-9A4E-8CA7AE7E09E3</string>
-		</dict>
 		<key>9D26916E-A936-460C-BF8C-80A28280D4D6</key>
 		<dict>
 			<key>className</key>
@@ -61,6 +33,34 @@
 			<string>Build target Alamofire</string>
 			<key>uniqueIdentifier</key>
 			<string>9D26916E-A936-460C-BF8C-80A28280D4D6</string>
+		</dict>
+		<key>D1A2A60C-6BAA-4091-9A18-C086B2B7ACD6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>D1A2A60C-6BAA-4091-9A18-C086B2B7ACD6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
+			<key>timeStartedRecording</key>
+			<real>634324179.08869505</real>
+			<key>timeStoppedRecording</key>
+			<real>634324182.96807802</real>
+			<key>title</key>
+			<string>Build target flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>D1A2A60C-6BAA-4091-9A18-C086B2B7ACD6</string>
 		</dict>
 		<key>DA3AFC04-172A-47E5-9BC0-2713FC1A5AF1</key>
 		<dict>
