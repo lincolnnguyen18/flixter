@@ -6,35 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>7DB875EF-2825-4491-B232-6E2F68F580A5</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>7DB875EF-2825-4491-B232-6E2F68F580A5.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
-			<key>timeStartedRecording</key>
-			<real>634263633.28178406</real>
-			<key>timeStoppedRecording</key>
-			<real>634263639.07272398</real>
-			<key>title</key>
-			<string>Build target flixter</string>
-			<key>uniqueIdentifier</key>
-			<string>7DB875EF-2825-4491-B232-6E2F68F580A5</string>
-		</dict>
-		<key>8DD3A390-C226-4E94-A640-7E7D887E3E39</key>
+		<key>27AD5B80-9F5D-46B7-8C30-06AFE3EB317E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>8DD3A390-C226-4E94-A640-7E7D887E3E39.xcactivitylog</string>
+			<string>27AD5B80-9F5D-46B7-8C30-06AFE3EB317E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,15 +26,15 @@
 			<key>signature</key>
 			<string>AlamofireImage-ghcqkqnjnhoowxfxcvzjlwwidumv</string>
 			<key>timeStartedRecording</key>
-			<real>634260489.74945796</real>
+			<real>634264079.51943099</real>
 			<key>timeStoppedRecording</key>
-			<real>634260489.754094</real>
+			<real>634264080.17777801</real>
 			<key>title</key>
 			<string>Build target AlamofireImage</string>
 			<key>uniqueIdentifier</key>
-			<string>8DD3A390-C226-4E94-A640-7E7D887E3E39</string>
+			<string>27AD5B80-9F5D-46B7-8C30-06AFE3EB317E</string>
 		</dict>
-		<key>CB1F18DB-ADA6-4009-B459-2B34B3D4BD25</key>
+		<key>55AD7C4C-46C6-447F-BDCB-196841B5F7EA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>CB1F18DB-ADA6-4009-B459-2B34B3D4BD25.xcactivitylog</string>
+			<string>55AD7C4C-46C6-447F-BDCB-196841B5F7EA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +54,41 @@
 			<key>signature</key>
 			<string>Alamofire-ghcqkqnjnhoowxfxcvzjlwwidumv</string>
 			<key>timeStartedRecording</key>
-			<real>634260489.73433101</real>
+			<real>634264076.49766397</real>
 			<key>timeStoppedRecording</key>
-			<real>634260489.74747002</real>
+			<real>634264079.52005303</real>
 			<key>title</key>
 			<string>Build target Alamofire</string>
 			<key>uniqueIdentifier</key>
-			<string>CB1F18DB-ADA6-4009-B459-2B34B3D4BD25</string>
+			<string>55AD7C4C-46C6-447F-BDCB-196841B5F7EA</string>
+		</dict>
+		<key>C0FB0522-6492-4533-BB87-4A5C47A8B499</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>C0FB0522-6492-4533-BB87-4A5C47A8B499.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
+			<key>timeStartedRecording</key>
+			<real>634264262.58214295</real>
+			<key>timeStoppedRecording</key>
+			<real>634264268.97003496</real>
+			<key>title</key>
+			<string>Build target flixter</string>
+			<key>uniqueIdentifier</key>
+			<string>C0FB0522-6492-4533-BB87-4A5C47A8B499</string>
 		</dict>
 		<key>DAB778AE-D758-4D70-8836-915BE274493F</key>
 		<dict>
