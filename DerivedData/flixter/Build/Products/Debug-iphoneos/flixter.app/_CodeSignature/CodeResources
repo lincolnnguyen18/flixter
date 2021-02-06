@@ -26,7 +26,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		P4uKsyqRxfi3DoLasGmtnjsIb50=
+		ry9ifsMvMjFC+XQ5bTGf37w+ifw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/MRi-lW-qes-view-yeu-Cu-1DD.nib</key>
 		<data>
-		9hpOBetwr9RJe61m2QiDmER+Y3o=
+		GYsI0Yc2WCed94tu2TGDfavU3+Q=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-9t8-Lf-b82.nib</key>
 		<data>
-		D+b/dM6brq1E8paOGefC18oLySA=
+		EVzjEIXly8MLnKH0JiM9/C7VhoA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-MRi-lW-qes.nib</key>
 		<data>
-		cXQgaANVwWF/38zHjRRVpbik6Rw=
+		07/du+wAHcoJHQ7kJYurSov4iDU=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		kciu6A3fgGLGY9f2VuMhMJi+mG8=
+		dShURU1KjbtJ4/Rhiqd5JXATymk=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Frameworks/AlamofireImage.framework/AlamofireImage</key>
 		<data>
-		oPabp0hRwZIPPyyile3OCwmIjN0=
+		LLNWTkYUBGGJjWGT0RhiHWw2mWI=
 		</data>
 		<key>Frameworks/AlamofireImage.framework/Info.plist</key>
 		<data>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iVGIOUN+k4OpYu4oN6qSfKg52OsAxq6z3OZWzE8Vu+g=
+			22aVUDQxFDJJ+j6y5gnl+GNeK96c1YQYYM7Oq4UG588=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -136,28 +136,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k7siAvW3LATq7qYQymhvLdAdh/88sl0Ra3Sm+lpR4sc=
+			7HbD4ExPFc+c7DmI2fNAD2RuA7STCtG4K+4tVo8RxiY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-9t8-Lf-b82.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qRF+IYasCyhTkp0IHrLpIXX0vPy8qtqZ1y96+0OcfBE=
+			gOeAQbd/QJ+WYSBvh4bP4EczewjY6cN4v5k75zFIJz4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-MRi-lW-qes.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1tOCEkNBgw3/1IEOkqwDejuHhPqYUYHQuiZJ9WOxZoc=
+			v70PK9DiijNdKKemVnLkueKtj2EMraB874GJR9bKW1Y=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i4redfMV3078KAS2aN13dZrzKKx0V4/pvBpXaUVmpf4=
+			9rfkBV/zwBD5CRtJv/Uf/DywinZC48/5YywfVurNXH4=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -178,7 +178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q0GnDrXyzhJs4UId2p96cUmdDDWtmEg/xYLBNqr0ITA=
+			9waYEr5450HRD9zvzRlt3SwN/sFyKtSOq8l051RIKKw=
 			</data>
 		</dict>
 		<key>Frameworks/AlamofireImage.framework/Info.plist</key>

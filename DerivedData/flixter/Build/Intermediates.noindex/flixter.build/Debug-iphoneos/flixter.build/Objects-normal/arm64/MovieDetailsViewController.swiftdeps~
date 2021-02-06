@@ -6,125 +6,432 @@ provides-nominal:
 provides-member:
 - ["7flixter26MovieDetailsViewControllerC", ""]
 provides-dynamic-lookup:
+- "backdropView"
 - "movie"
+- "posterView"
+- "synopsisLabel"
+- "titleLabel"
 - "viewDidLoad"
 depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
 - "MovieDetailsViewController"
 - "String"
+- !private "StringLiteralType"
+- "UIImageView"
+- "UILabel"
 - "UIViewController"
+- !private "URL"
+- !private "backdropView"
+- !private "movie"
+- !private "posterView"
+- !private "print"
+- !private "synopsisLabel"
+- !private "titleLabel"
 depends-member:
+- !private ["9Alamofire0A8ExtendedP", "af"]
+- !private ["9Alamofire0A9ExtensionV", "setImage"]
 - ["SK", ""]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "af"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "URL"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "af"]
+- !private ["s7CVarArgP", "backdropView"]
+- !private ["s7CVarArgP", "movie"]
+- !private ["s7CVarArgP", "posterView"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "synopsisLabel"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "titleLabel"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["Sl", ""]
+- !private ["Sl", "subscript"]
 - ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "af"]
+- !private ["s28CustomDebugStringConvertibleP", "backdropView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "movie"]
+- !private ["s28CustomDebugStringConvertibleP", "posterView"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "synopsisLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "titleLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "af"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "URL"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "af"]
+- !private ["s23CustomStringConvertibleP", "backdropView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "movie"]
+- !private ["s23CustomStringConvertibleP", "posterView"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "synopsisLabel"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "titleLabel"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "af"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "text"]
+- !private ["SD", "subscript"]
+- !private ["SE", "af"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "text"]
+- !private ["SQ", "URL"]
 - ["SQ", ""]
+- !private ["SQ", "af"]
+- !private ["SQ", "backdropView"]
+- !private ["SQ", "init"]
+- !private ["SQ", "movie"]
+- !private ["SQ", "posterView"]
+- !private ["SQ", "print"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "synopsisLabel"]
+- !private ["SQ", "text"]
+- !private ["SQ", "titleLabel"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "af"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "URL"]
 - ["SH", ""]
+- !private ["SH", "af"]
+- !private ["SH", "backdropView"]
+- !private ["SH", "init"]
+- !private ["SH", "movie"]
+- !private ["SH", "posterView"]
+- !private ["SH", "print"]
+- !private ["SH", "subscript"]
+- !private ["SH", "synopsisLabel"]
+- !private ["SH", "text"]
+- !private ["SH", "titleLabel"]
 - !private ["SH", "viewDidLoad"]
 - ["s25LosslessStringConvertibleP", ""]
 - ["7flixter26MovieDetailsViewControllerC", "String"]
+- ["7flixter26MovieDetailsViewControllerC", "UIImageView"]
+- ["7flixter26MovieDetailsViewControllerC", "UILabel"]
+- !private ["7flixter26MovieDetailsViewControllerC", "URL"]
 - ["7flixter26MovieDetailsViewControllerC", ""]
+- ["7flixter26MovieDetailsViewControllerC", "backdropView"]
 - ["7flixter26MovieDetailsViewControllerC", "deinit"]
 - ["7flixter26MovieDetailsViewControllerC", "init"]
 - ["7flixter26MovieDetailsViewControllerC", "movie"]
+- ["7flixter26MovieDetailsViewControllerC", "posterView"]
+- !private ["7flixter26MovieDetailsViewControllerC", "print"]
+- ["7flixter26MovieDetailsViewControllerC", "synopsisLabel"]
+- ["7flixter26MovieDetailsViewControllerC", "titleLabel"]
 - ["7flixter26MovieDetailsViewControllerC", "viewDidLoad"]
 - ["So8NSCodingP", "String"]
+- ["So8NSCodingP", "UIImageView"]
+- ["So8NSCodingP", "UILabel"]
+- !private ["So8NSCodingP", "URL"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "af"]
+- ["So8NSCodingP", "backdropView"]
 - ["So8NSCodingP", "init"]
 - ["So8NSCodingP", "movie"]
+- ["So8NSCodingP", "posterView"]
+- !private ["So8NSCodingP", "print"]
+- ["So8NSCodingP", "synopsisLabel"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "titleLabel"]
 - ["So8NSCodingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", "UIImageView"]
+- ["So26NSExtensionRequestHandlingP", "UILabel"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "backdropView"]
 - ["So26NSExtensionRequestHandlingP", "init"]
 - ["So26NSExtensionRequestHandlingP", "movie"]
+- ["So26NSExtensionRequestHandlingP", "posterView"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "synopsisLabel"]
+- ["So26NSExtensionRequestHandlingP", "titleLabel"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "URL"]
 - ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "af"]
+- ["So8NSObjectC", "backdropView"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "movie"]
+- ["So8NSObjectC", "posterView"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "synopsisLabel"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "titleLabel"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "UIImageView"]
+- ["So8NSObjectP", "UILabel"]
+- !private ["So8NSObjectP", "URL"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "af"]
+- ["So8NSObjectP", "backdropView"]
 - ["So8NSObjectP", "init"]
 - ["So8NSObjectP", "movie"]
+- ["So8NSObjectP", "posterView"]
+- !private ["So8NSObjectP", "print"]
+- ["So8NSObjectP", "synopsisLabel"]
+- !private ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "titleLabel"]
 - ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "af"]
+- !private ["Sq", "subscript"]
+- !private ["Sq", "text"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
 - ["ST", ""]
+- !private ["ST", "subscript"]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "af"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "af"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "af"]
+- !private ["So12UIAppearanceP", "text"]
 - ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", "UIImageView"]
+- ["So21UIAppearanceContainerP", "UILabel"]
+- !private ["So21UIAppearanceContainerP", "URL"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "af"]
+- ["So21UIAppearanceContainerP", "backdropView"]
 - ["So21UIAppearanceContainerP", "init"]
 - ["So21UIAppearanceContainerP", "movie"]
+- ["So21UIAppearanceContainerP", "posterView"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- ["So21UIAppearanceContainerP", "synopsisLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", "titleLabel"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", "UIImageView"]
+- ["So18UIContentContainerP", "UILabel"]
+- !private ["So18UIContentContainerP", "URL"]
 - ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "backdropView"]
 - ["So18UIContentContainerP", "init"]
 - ["So18UIContentContainerP", "movie"]
+- ["So18UIContentContainerP", "posterView"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "synopsisLabel"]
+- ["So18UIContentContainerP", "titleLabel"]
 - ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "af"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "af"]
+- !private ["So13UIDynamicItemP", "text"]
 - ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", "UIImageView"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "af"]
+- ["So18UIFocusEnvironmentP", "backdropView"]
 - ["So18UIFocusEnvironmentP", "init"]
 - ["So18UIFocusEnvironmentP", "movie"]
+- ["So18UIFocusEnvironmentP", "posterView"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- ["So18UIFocusEnvironmentP", "synopsisLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", "titleLabel"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "af"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "af"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So11UIImageViewC", "af"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "af"]
+- !private ["So24UILargeContentViewerItemP", "text"]
 - ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "af"]
+- ["So30UIPasteConfigurationSupportingP", "backdropView"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "movie"]
+- ["So30UIPasteConfigurationSupportingP", "posterView"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- ["So30UIPasteConfigurationSupportingP", "synopsisLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "titleLabel"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "URL"]
 - ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "af"]
+- ["So11UIResponderC", "backdropView"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "movie"]
+- ["So11UIResponderC", "posterView"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "synopsisLabel"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "titleLabel"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "af"]
+- ["So30UIResponderStandardEditActionsP", "backdropView"]
 - ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "movie"]
+- ["So30UIResponderStandardEditActionsP", "posterView"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- ["So30UIResponderStandardEditActionsP", "synopsisLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", "titleLabel"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", "UIImageView"]
+- ["So16UIStateRestoringP", "UILabel"]
+- !private ["So16UIStateRestoringP", "URL"]
 - ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "backdropView"]
 - ["So16UIStateRestoringP", "init"]
 - ["So16UIStateRestoringP", "movie"]
+- ["So16UIStateRestoringP", "posterView"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "synopsisLabel"]
+- ["So16UIStateRestoringP", "titleLabel"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", "UIImageView"]
+- ["So18UITraitEnvironmentP", "UILabel"]
+- !private ["So18UITraitEnvironmentP", "URL"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "af"]
+- ["So18UITraitEnvironmentP", "backdropView"]
 - ["So18UITraitEnvironmentP", "init"]
 - ["So18UITraitEnvironmentP", "movie"]
+- ["So18UITraitEnvironmentP", "posterView"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- ["So18UITraitEnvironmentP", "synopsisLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", "titleLabel"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", "UIImageView"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "af"]
+- ["So23UIUserActivityRestoringP", "backdropView"]
 - ["So23UIUserActivityRestoringP", "init"]
 - ["So23UIUserActivityRestoringP", "movie"]
+- ["So23UIUserActivityRestoringP", "posterView"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- ["So23UIUserActivityRestoringP", "synopsisLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So23UIUserActivityRestoringP", "titleLabel"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "af"]
+- !private ["So6UIViewC", "text"]
 - ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", "UILabel"]
+- !private ["So16UIViewControllerC", "URL"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "backdropView"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "movie"]
+- ["So16UIViewControllerC", "posterView"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "synopsisLabel"]
+- ["So16UIViewControllerC", "titleLabel"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "af"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backdropView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "movie"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "posterView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "synopsisLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "af"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backdropView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "movie"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "posterView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "synopsisLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "titleLabel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "af"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "af"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "9Alamofire0A9ExtensionV"
 - "SK"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "Sl"
 - "SL"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
 - "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
@@ -135,23 +442,46 @@ depends-nominal:
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sq"
+- !private "10Foundation20ReferenceConvertibleP"
 - "ST"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- "So6UIViewC"
 - "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
@@ -190,4 +520,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c1441de84d956041bb35633ebd2aa91a"
+interface-hash: "6bd2178e847ee1b4700633b5c46ffb62"

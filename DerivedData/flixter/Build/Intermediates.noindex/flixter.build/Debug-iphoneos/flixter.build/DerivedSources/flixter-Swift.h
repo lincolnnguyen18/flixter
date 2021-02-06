@@ -239,6 +239,10 @@ SWIFT_CLASS("_TtC7flixter9MovieCell")
 
 SWIFT_CLASS("_TtC7flixter26MovieDetailsViewController")
 @interface MovieDetailsViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified backdropView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified posterView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified synopsisLabel;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
