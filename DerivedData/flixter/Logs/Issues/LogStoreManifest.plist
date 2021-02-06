@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>27AD5B80-9F5D-46B7-8C30-06AFE3EB317E</key>
+		<key>8EF5EC9C-01F1-45E8-B07E-9BF18871D283</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>27AD5B80-9F5D-46B7-8C30-06AFE3EB317E.xcactivitylog</string>
+			<string>8EF5EC9C-01F1-45E8-B07E-9BF18871D283.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>AlamofireImage-ghcqkqnjnhoowxfxcvzjlwwidumv</string>
 			<key>timeStartedRecording</key>
-			<real>634264079.51943099</real>
+			<real>634266588.78147304</real>
 			<key>timeStoppedRecording</key>
-			<real>634264080.17777801</real>
+			<real>634266588.80038905</real>
 			<key>title</key>
 			<string>Build target AlamofireImage</string>
 			<key>uniqueIdentifier</key>
-			<string>27AD5B80-9F5D-46B7-8C30-06AFE3EB317E</string>
+			<string>8EF5EC9C-01F1-45E8-B07E-9BF18871D283</string>
 		</dict>
-		<key>55AD7C4C-46C6-447F-BDCB-196841B5F7EA</key>
+		<key>BE1A9E78-C87A-4AEC-A83B-1A81A34D6587</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>55AD7C4C-46C6-447F-BDCB-196841B5F7EA.xcactivitylog</string>
+			<string>BE1A9E78-C87A-4AEC-A83B-1A81A34D6587.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,15 +54,15 @@
 			<key>signature</key>
 			<string>Alamofire-ghcqkqnjnhoowxfxcvzjlwwidumv</string>
 			<key>timeStartedRecording</key>
-			<real>634264076.49766397</real>
+			<real>634266588.73939502</real>
 			<key>timeStoppedRecording</key>
-			<real>634264079.52005303</real>
+			<real>634266588.79068005</real>
 			<key>title</key>
 			<string>Build target Alamofire</string>
 			<key>uniqueIdentifier</key>
-			<string>55AD7C4C-46C6-447F-BDCB-196841B5F7EA</string>
+			<string>BE1A9E78-C87A-4AEC-A83B-1A81A34D6587</string>
 		</dict>
-		<key>93920BF4-88D2-4DB9-A206-FF258740EEAC</key>
+		<key>C480F87F-7575-41A5-8E4C-3E42B7CA6748</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>93920BF4-88D2-4DB9-A206-FF258740EEAC.xcactivitylog</string>
+			<string>C480F87F-7575-41A5-8E4C-3E42B7CA6748.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
 			<key>timeStartedRecording</key>
-			<real>634266396.91658103</real>
+			<real>634276875.661255</real>
 			<key>timeStoppedRecording</key>
-			<real>634266399.05105805</real>
+			<real>634276876.781178</real>
 			<key>title</key>
 			<string>Build target flixter</string>
 			<key>uniqueIdentifier</key>
-			<string>93920BF4-88D2-4DB9-A206-FF258740EEAC</string>
+			<string>C480F87F-7575-41A5-8E4C-3E42B7CA6748</string>
 		</dict>
 		<key>DAB778AE-D758-4D70-8836-915BE274493F</key>
 		<dict>
