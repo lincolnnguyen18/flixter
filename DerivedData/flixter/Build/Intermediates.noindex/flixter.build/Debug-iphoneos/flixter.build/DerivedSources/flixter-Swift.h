@@ -258,6 +258,7 @@ SWIFT_CLASS("_TtC7flixter13MovieGridCell")
 @end
 
 @class UICollectionView;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC7flixter23MovieGridViewController")
 @interface MovieGridViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
@@ -265,12 +266,12 @@ SWIFT_CLASS("_TtC7flixter23MovieGridViewController")
 - (void)viewDidLoad;
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITableView;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC7flixter20MoviesViewController")
 @interface MoviesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>

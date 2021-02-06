@@ -26,7 +26,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		cDfDL8OY58om2+PRCZFC7dy0VVQ=
+		UDBHybZTIM71HwNBnKv4taBNuRg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -34,19 +34,19 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/LJU-en-hmF-view-LH7-Ht-4m2.nib</key>
 		<data>
-		sCtUUieKA5+GDb6oZEFVObhZslA=
+		zPghyjCzoZFbNaT84K6WqWS3OMk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/MRi-lW-qes-view-yeu-Cu-1DD.nib</key>
 		<data>
-		gRiiW3SgxJmRtJxSCS2doCIAH4c=
+		gRa/aFEk3zigB4SOjyUmhLjP/Vs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-kpc-LV-w43.nib</key>
 		<data>
-		OVO0lyQkWfh5FCTX4hMAoELoLa4=
+		CRf5upI2BwcYeLxoS1FApCpDE2A=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-MRi-lW-qes.nib</key>
 		<data>
-		ifiLW9cF4Wu9lFdZ40bBr2urKnA=
+		00BoYUZSKdfmF9FP9vnYbOu22vg=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -126,7 +126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L3gZG2Pd1e09WmjQi0jiDQaf9gvejBM2oXGuD5rL9PE=
+			/EKLZdwvsn+IqXzYExo91ss9+FZisb1PGwFVpE+PAvk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -140,28 +140,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dWRKdqdDzMdwX5eM/50a04CZGLBk1OOK4hiCG/X2100=
+			M6KY8LiHFJMj+AsmQzc+01ldxeOXJYHUb/iA/6Lht/I=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/MRi-lW-qes-view-yeu-Cu-1DD.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qPeJwB2IaNMpBlO82hb0U38T0lx2R08siqIaUKeq2pE=
+			GiPIsf0aJHUk2K3EOPSmLHtQpDKKQZLieWLzHoo8BZk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-kpc-LV-w43.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n7xzJ7L2zy47COGGgV+LJZ5+LoqexFesQxEwbjkk/zc=
+			ymMAB7mGS4IHroLSc2HweIt9111txd+R/XmGrghZalg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-MRi-lW-qes.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8svaaKjXDMXRs7Z3qCPiU/Qm9bMY9U/CdK5ovAeAPgU=
+			jweDa9b7W6X58adbP+SiuQik/K4Rf0TI1VfGxsTp0/s=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>

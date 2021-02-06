@@ -20,7 +20,7 @@ class MovieDetailsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        print(movie["title"])
+        print(movie["title"] ?? "No title available.")
         
         titleLabel.text = movie["title"] as? String
         titleLabel.sizeToFit()
@@ -34,10 +34,18 @@ class MovieDetailsViewController: UIViewController {
         
         posterView.af.setImage(withURL: posterUrl!)
         
-        let backdropPath = movie["backdrop_path"] as! String
-        let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
-        
-        backdropView.af.setImage(withURL: backdropUrl!)
+        if let backdropPath = movie["backdrop_path"] as? String {
+            let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
+            backdropView.af.setImage(withURL: backdropUrl!)
+        } else {
+            let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + posterPath)
+            backdropView.af.setImage(withURL: backdropUrl!)
+        }
+        // let backdropPath = movie["backdrop_path"] as! String
+        // if !backdropPath.isEmpty {
+        //     let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
+        //     backdropView.af.setImage(withURL: backdropUrl!)
+        // }
     }
     
 
