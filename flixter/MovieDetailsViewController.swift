@@ -38,6 +38,11 @@ class MovieDetailsViewController: UIViewController {
         
         posterView.af.setImage(withURL: posterUrl!)
         
+        posterView.layer.masksToBounds = true
+        posterView.layer.borderWidth = 1.5
+        posterView.layer.borderColor = UIColor.white.cgColor
+        // posterView.layer.cornerRadius = posterView.bounds.width / 25
+        
         if let backdropPath = movie["backdrop_path"] as? String {
             let backdropUrl = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
             backdropView.af.setImage(withURL: backdropUrl!)
