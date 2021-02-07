@@ -60,9 +60,13 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
     
-        collectionView.delegate = self
-        collectionView.dataSource = self
-    
+        let selectedIndex = tabBarController!.selectedIndex
+        print(selectedIndex)
+        
+        if selectedIndex != 1 {
+            return
+        }
+        
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
     
         layout.minimumLineSpacing = 4
