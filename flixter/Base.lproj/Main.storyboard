@@ -279,9 +279,6 @@
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hQ0-L7-Q4s">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="414" id="usU-Ph-T5W"/>
-                                                </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjL-Bm-XiX">
                                                 <rect key="frame" x="175" y="422" width="227" height="26.333333333333314"/>
@@ -299,7 +296,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Vd-Ri-H4Z">
-                                                <rect key="frame" x="16" y="532" width="398" height="20.333333333333371"/>
+                                                <rect key="frame" x="16" y="532" width="382" height="20.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -325,12 +322,12 @@
                                             <constraint firstAttribute="trailing" secondItem="8rv-qR-xfe" secondAttribute="trailing" constant="12" id="Fup-7f-UYE"/>
                                             <constraint firstItem="hQ0-L7-Q4s" firstAttribute="leading" secondItem="Ugq-Yb-hyN" secondAttribute="leading" id="JBS-Lf-g6b"/>
                                             <constraint firstItem="8rv-qR-xfe" firstAttribute="top" secondItem="vjL-Bm-XiX" secondAttribute="bottom" constant="8" id="KD5-9V-wpK"/>
-                                            <constraint firstItem="Yso-3q-4JQ" firstAttribute="top" secondItem="Ugq-Yb-hyN" secondAttribute="top" constant="281" id="SaM-xf-DO6"/>
-                                            <constraint firstItem="6Vd-Ri-H4Z" firstAttribute="top" secondItem="Yso-3q-4JQ" secondAttribute="bottom" constant="23" id="Vks-PQ-qte"/>
+                                            <constraint firstItem="Yso-3q-4JQ" firstAttribute="top" secondItem="hQ0-L7-Q4s" secondAttribute="bottom" constant="-133" id="SeY-W6-DMc"/>
+                                            <constraint firstItem="6Vd-Ri-H4Z" firstAttribute="top" secondItem="8rv-qR-xfe" secondAttribute="bottom" constant="54.670000000000002" id="ZLk-oP-F0u"/>
                                             <constraint firstItem="hQ0-L7-Q4s" firstAttribute="top" secondItem="Ugq-Yb-hyN" secondAttribute="top" id="cBj-s1-rOC"/>
                                             <constraint firstItem="vjL-Bm-XiX" firstAttribute="leading" secondItem="Yso-3q-4JQ" secondAttribute="trailing" constant="12" id="cxm-YC-yGS"/>
                                             <constraint firstItem="Yso-3q-4JQ" firstAttribute="leading" secondItem="Ugq-Yb-hyN" secondAttribute="leading" constant="16" id="gZT-yM-Ahb"/>
-                                            <constraint firstAttribute="trailing" secondItem="6Vd-Ri-H4Z" secondAttribute="trailing" id="ptX-Cb-7qh"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Vd-Ri-H4Z" secondAttribute="trailing" constant="16" id="ptX-Cb-7qh"/>
                                             <constraint firstAttribute="trailing" secondItem="vjL-Bm-XiX" secondAttribute="trailing" constant="12" id="txo-vy-FSp"/>
                                             <constraint firstItem="vjL-Bm-XiX" firstAttribute="top" secondItem="hQ0-L7-Q4s" secondAttribute="bottom" constant="8" id="v7j-jv-ePb"/>
                                         </constraints>
@@ -353,15 +350,20 @@
                             <constraint firstItem="qFJ-LY-M97" firstAttribute="trailing" secondItem="0wD-U2-MVB" secondAttribute="trailing" id="0Vn-CG-GHp"/>
                             <constraint firstItem="qFJ-LY-M97" firstAttribute="leading" secondItem="0wD-U2-MVB" secondAttribute="leading" id="8Cd-0V-QRY"/>
                             <constraint firstItem="qFJ-LY-M97" firstAttribute="top" secondItem="0wD-U2-MVB" secondAttribute="top" id="Sjq-KR-TYf"/>
+                            <constraint firstItem="hQ0-L7-Q4s" firstAttribute="height" secondItem="0wD-U2-MVB" secondAttribute="height" multiplier="0.643857" id="hz9-GP-40M"/>
                             <constraint firstItem="0wD-U2-MVB" firstAttribute="bottom" secondItem="qFJ-LY-M97" secondAttribute="bottom" id="vOv-8y-8Cc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="XgD-gv-NkN"/>
                     <size key="freeformSize" width="414" height="736"/>
                     <connections>
+                        <outlet property="backdropConstraint" destination="hz9-GP-40M" id="ULp-26-RML"/>
                         <outlet property="backdropView" destination="hQ0-L7-Q4s" id="1XT-MO-VO3"/>
+                        <outlet property="posterDistance" destination="SeY-W6-DMc" id="QNt-Es-O9K"/>
                         <outlet property="posterView" destination="Yso-3q-4JQ" id="S8E-l0-oG7"/>
                         <outlet property="releaseDateLabel" destination="8rv-qR-xfe" id="rFL-nE-IMx"/>
+                        <outlet property="synopLeft" destination="FKM-ba-30I" id="7B5-Z1-Jn1"/>
+                        <outlet property="synopTop" destination="ZLk-oP-F0u" id="sUU-m2-A9E"/>
                         <outlet property="synopsisLabel" destination="6Vd-Ri-H4Z" id="xUz-gS-yDM"/>
                         <outlet property="titleLabel" destination="vjL-Bm-XiX" id="URS-bm-Qsj"/>
                     </connections>

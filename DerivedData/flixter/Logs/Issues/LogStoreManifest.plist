@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>0F6F2F4E-6A25-4436-BEA3-34C4483B35EC</key>
+		<key>3C0B0788-BD96-4208-BC65-451C74E15788</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>0F6F2F4E-6A25-4436-BEA3-34C4483B35EC.xcactivitylog</string>
+			<string>3C0B0788-BD96-4208-BC65-451C74E15788.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
 			<key>timeStartedRecording</key>
-			<real>634406057.66910195</real>
+			<real>634423947.79618001</real>
 			<key>timeStoppedRecording</key>
-			<real>634406061.38241506</real>
+			<real>634423951.56089306</real>
 			<key>title</key>
 			<string>Build target flixter</string>
 			<key>uniqueIdentifier</key>
-			<string>0F6F2F4E-6A25-4436-BEA3-34C4483B35EC</string>
+			<string>3C0B0788-BD96-4208-BC65-451C74E15788</string>
 		</dict>
 		<key>9D26916E-A936-460C-BF8C-80A28280D4D6</key>
 		<dict>

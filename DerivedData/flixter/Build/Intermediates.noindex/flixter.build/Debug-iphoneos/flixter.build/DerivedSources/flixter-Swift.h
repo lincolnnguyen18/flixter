@@ -236,6 +236,8 @@ SWIFT_CLASS("_TtC7flixter9MovieCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSLayoutConstraint;
+@protocol UIViewControllerTransitionCoordinator;
 @class UIStoryboardSegue;
 @class NSBundle;
 
@@ -246,7 +248,12 @@ SWIFT_CLASS("_TtC7flixter26MovieDetailsViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified synopsisLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified releaseDateLabel;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified backdropConstraint;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified posterDistance;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified synopLeft;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified synopTop;
 - (void)viewDidLoad;
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -261,7 +268,6 @@ SWIFT_CLASS("_TtC7flixter13MovieGridCell")
 @end
 
 @class UICollectionView;
-@protocol UIViewControllerTransitionCoordinator;
 
 SWIFT_CLASS("_TtC7flixter23MovieGridViewController")
 @interface MovieGridViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
@@ -298,6 +304,7 @@ SWIFT_CLASS("_TtC7flixter20MoviesViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 @class UIWindow;
 @class UIScene;

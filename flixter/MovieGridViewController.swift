@@ -61,7 +61,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         super.viewWillTransition(to: size, with: coordinator)
     
         let selectedIndex = tabBarController!.selectedIndex
-        print(selectedIndex)
+        // print(selectedIndex)
         
         if selectedIndex != 1 {
             return
