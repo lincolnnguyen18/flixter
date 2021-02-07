@@ -121,9 +121,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DlC-ZT-LKa">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="DlC-ZT-LKa">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zVz-gF-ivx">
                                     <size key="itemSize" width="201" height="232"/>
@@ -156,6 +155,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="czk-ve-eTS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="DlC-ZT-LKa" secondAttribute="bottom" id="AHC-YE-7l7"/>
+                            <constraint firstItem="DlC-ZT-LKa" firstAttribute="leading" secondItem="czk-ve-eTS" secondAttribute="leading" id="c10-rE-3S4"/>
+                            <constraint firstItem="DlC-ZT-LKa" firstAttribute="trailing" secondItem="czk-ve-eTS" secondAttribute="trailing" id="gKW-NQ-xgZ"/>
+                            <constraint firstItem="DlC-ZT-LKa" firstAttribute="top" secondItem="LH7-Ht-4m2" secondAttribute="top" id="oaG-aD-gE5"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Superhero" id="7My-e8-gOl"/>
                     <connections>
