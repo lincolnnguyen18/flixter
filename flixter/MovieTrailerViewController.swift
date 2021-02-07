@@ -36,6 +36,9 @@ class MovieTrailerViewController: UIViewController {
         }
         task.resume()
     }
+    @IBAction func closeTrailer(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     
     func loadYoutube(videoID:String) {
         print(videoID)

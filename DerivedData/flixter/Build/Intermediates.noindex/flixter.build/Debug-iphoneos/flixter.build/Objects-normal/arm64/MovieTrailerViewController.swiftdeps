@@ -6,6 +6,7 @@ provides-nominal:
 provides-member:
 - ["7flixter26MovieTrailerViewControllerC", ""]
 provides-dynamic-lookup:
+- "closeTrailer"
 - "loadYoutube"
 - "movieId"
 - "viewDidLoad"
@@ -14,6 +15,7 @@ depends-top-level:
 - !private "+"
 - "??"
 - !private "Array"
+- !private "BooleanLiteralType"
 - !private "CastingPrecedence"
 - !private "FloatLiteralType"
 - "Int"
@@ -28,6 +30,7 @@ depends-top-level:
 - !private "URLRequest"
 - !private "URLSession"
 - "WKWebView"
+- !private "dismiss"
 - !private "movieId"
 - "print"
 - !private "webView"
@@ -49,8 +52,10 @@ depends-member:
 - !private ["s7CVarArgP", "URLRequest"]
 - !private ["s7CVarArgP", "URLSession"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "closeTrailer"]
 - !private ["s7CVarArgP", "dataTask"]
 - !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "dismiss"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "jsonObject"]
 - !private ["s7CVarArgP", "load"]
@@ -76,8 +81,10 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
 - !private ["s28CustomDebugStringConvertibleP", "URLSession"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "closeTrailer"]
 - !private ["s28CustomDebugStringConvertibleP", "dataTask"]
 - !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
 - !private ["s28CustomDebugStringConvertibleP", "load"]
@@ -101,8 +108,10 @@ depends-member:
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "closeTrailer"]
 - !private ["s23CustomStringConvertibleP", "dataTask"]
 - !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "jsonObject"]
 - !private ["s23CustomStringConvertibleP", "load"]
@@ -134,8 +143,10 @@ depends-member:
 - !private ["SQ", "URLRequest"]
 - !private ["SQ", "URLSession"]
 - ["SQ", ""]
+- !private ["SQ", "closeTrailer"]
 - !private ["SQ", "dataTask"]
 - !private ["SQ", "default"]
+- !private ["SQ", "dismiss"]
 - !private ["SQ", "init"]
 - !private ["SQ", "jsonObject"]
 - !private ["SQ", "load"]
@@ -173,8 +184,10 @@ depends-member:
 - !private ["SH", "URLRequest"]
 - !private ["SH", "URLSession"]
 - ["SH", ""]
+- !private ["SH", "closeTrailer"]
 - !private ["SH", "dataTask"]
 - !private ["SH", "default"]
+- !private ["SH", "dismiss"]
 - !private ["SH", "init"]
 - !private ["SH", "jsonObject"]
 - !private ["SH", "load"]
@@ -200,7 +213,9 @@ depends-member:
 - !private ["7flixter26MovieTrailerViewControllerC", "URLSession"]
 - ["7flixter26MovieTrailerViewControllerC", "WKWebView"]
 - ["7flixter26MovieTrailerViewControllerC", ""]
+- ["7flixter26MovieTrailerViewControllerC", "closeTrailer"]
 - ["7flixter26MovieTrailerViewControllerC", "deinit"]
+- !private ["7flixter26MovieTrailerViewControllerC", "dismiss"]
 - ["7flixter26MovieTrailerViewControllerC", "init"]
 - ["7flixter26MovieTrailerViewControllerC", "loadYoutube"]
 - ["7flixter26MovieTrailerViewControllerC", "movieId"]
@@ -219,6 +234,8 @@ depends-member:
 - !private ["So8NSCodingP", "URLSession"]
 - ["So8NSCodingP", "WKWebView"]
 - ["So8NSCodingP", ""]
+- ["So8NSCodingP", "closeTrailer"]
+- !private ["So8NSCodingP", "dismiss"]
 - ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "load"]
 - !private ["So8NSCodingP", "loadData"]
@@ -239,6 +256,8 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "URLSession"]
 - ["So26NSExtensionRequestHandlingP", "WKWebView"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "closeTrailer"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
 - ["So26NSExtensionRequestHandlingP", "init"]
 - ["So26NSExtensionRequestHandlingP", "loadYoutube"]
 - ["So26NSExtensionRequestHandlingP", "movieId"]
@@ -256,10 +275,13 @@ depends-member:
 - !private ["So8NSObjectC", "URLSession"]
 - ["So8NSObjectC", "WKWebView"]
 - ["So8NSObjectC", ""]
+- ["So8NSObjectC", "closeTrailer"]
 - !private ["So8NSObjectC", "dataTask"]
 - !private ["So8NSObjectC", "dataTaskWithRequest"]
 - !private ["So8NSObjectC", "dataTaskWithURL"]
 - !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "dismissViewControllerAnimated"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "jsonObject"]
 - !private ["So8NSObjectC", "load"]
@@ -284,10 +306,13 @@ depends-member:
 - !private ["So8NSObjectP", "URLSession"]
 - ["So8NSObjectP", "WKWebView"]
 - ["So8NSObjectP", ""]
+- ["So8NSObjectP", "closeTrailer"]
 - !private ["So8NSObjectP", "dataTask"]
 - !private ["So8NSObjectP", "dataTaskWithRequest"]
 - !private ["So8NSObjectP", "dataTaskWithURL"]
 - !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "dismissViewControllerAnimated"]
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "jsonObject"]
 - !private ["So8NSObjectP", "load"]
@@ -358,6 +383,8 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "URLSession"]
 - ["So21UIAppearanceContainerP", "WKWebView"]
 - ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "closeTrailer"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
 - ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "load"]
 - !private ["So21UIAppearanceContainerP", "loadData"]
@@ -376,6 +403,8 @@ depends-member:
 - !private ["So18UIContentContainerP", "URLSession"]
 - ["So18UIContentContainerP", "WKWebView"]
 - ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "closeTrailer"]
+- !private ["So18UIContentContainerP", "dismiss"]
 - ["So18UIContentContainerP", "init"]
 - ["So18UIContentContainerP", "loadYoutube"]
 - ["So18UIContentContainerP", "movieId"]
@@ -397,6 +426,8 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "URLSession"]
 - ["So18UIFocusEnvironmentP", "WKWebView"]
 - ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "closeTrailer"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
 - ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "load"]
 - !private ["So18UIFocusEnvironmentP", "loadData"]
@@ -424,6 +455,9 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "URLSession"]
 - ["So30UIPasteConfigurationSupportingP", "WKWebView"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "closeTrailer"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissViewControllerAnimated"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "load"]
 - !private ["So30UIPasteConfigurationSupportingP", "loadData"]
@@ -442,6 +476,9 @@ depends-member:
 - !private ["So11UIResponderC", "URLSession"]
 - ["So11UIResponderC", "WKWebView"]
 - ["So11UIResponderC", ""]
+- ["So11UIResponderC", "closeTrailer"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "dismissViewControllerAnimated"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "load"]
 - !private ["So11UIResponderC", "loadData"]
@@ -460,6 +497,9 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "URLSession"]
 - ["So30UIResponderStandardEditActionsP", "WKWebView"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "closeTrailer"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "dismissViewControllerAnimated"]
 - ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "load"]
 - !private ["So30UIResponderStandardEditActionsP", "loadData"]
@@ -478,6 +518,8 @@ depends-member:
 - !private ["So16UIStateRestoringP", "URLSession"]
 - ["So16UIStateRestoringP", "WKWebView"]
 - ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "closeTrailer"]
+- !private ["So16UIStateRestoringP", "dismiss"]
 - ["So16UIStateRestoringP", "init"]
 - ["So16UIStateRestoringP", "loadYoutube"]
 - ["So16UIStateRestoringP", "movieId"]
@@ -493,6 +535,8 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "URLSession"]
 - ["So18UITraitEnvironmentP", "WKWebView"]
 - ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "closeTrailer"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
 - ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "load"]
 - !private ["So18UITraitEnvironmentP", "loadData"]
@@ -511,6 +555,9 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "URLSession"]
 - ["So23UIUserActivityRestoringP", "WKWebView"]
 - ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "closeTrailer"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "dismissViewControllerAnimated"]
 - ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "load"]
 - !private ["So23UIUserActivityRestoringP", "loadData"]
@@ -533,6 +580,8 @@ depends-member:
 - !private ["So16UIViewControllerC", "URLSession"]
 - ["So16UIViewControllerC", "WKWebView"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "closeTrailer"]
+- !private ["So16UIViewControllerC", "dismiss"]
 - ["So16UIViewControllerC", "init"]
 - ["So16UIViewControllerC", "loadYoutube"]
 - ["So16UIViewControllerC", "movieId"]
@@ -553,6 +602,7 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
@@ -570,8 +620,10 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "closeTrailer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "load"]
@@ -589,8 +641,10 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLRequest"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSession"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "closeTrailer"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jsonObject"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "load"]
@@ -696,6 +750,7 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
@@ -760,4 +815,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "8e96012747e210a250036f5ace40d221"
+interface-hash: "db57f9fc444f4ca93870f29dc6b0cc60"

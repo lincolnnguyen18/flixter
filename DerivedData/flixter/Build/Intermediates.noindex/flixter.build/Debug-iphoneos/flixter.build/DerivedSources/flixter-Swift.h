@@ -279,6 +279,7 @@ SWIFT_CLASS("_TtC7flixter26MovieTrailerViewController")
 @interface MovieTrailerViewController : UIViewController
 @property (nonatomic, weak) IBOutlet WKWebView * _Null_unspecified webView;
 - (void)viewDidLoad;
+- (IBAction)closeTrailer:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
