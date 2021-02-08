@@ -37,6 +37,7 @@ Autolayout was pretty challenging.
 
 ### App Walkthrough GIF
 <img src="http://g.recordit.co/GK4RuXthz8.gif"><br>
+<img src="http://g.recordit.co/gcB4BmsEEL.gif"><br>
 <img src="http://g.recordit.co/oyTNMWBNVI.gif"><br>
 
 ### Notes
