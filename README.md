@@ -1,3 +1,4 @@
+<img src="http://g.recordit.co/WLAFJbaMkI.gif"><br>
 # Flix
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
@@ -37,7 +38,6 @@ Autolayout was pretty challenging.
 
 ### App Walkthrough GIF
 <img src="http://g.recordit.co/GK4RuXthz8.gif"><br>
-<img src="http://g.recordit.co/WLAFJbaMkI.gif"><br>
 <img src="http://g.recordit.co/oyTNMWBNVI.gif"><br>
 
 ### Notes
