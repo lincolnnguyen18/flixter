@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "984ad77dccfb2a0dc66c6b4af11d6d3b"
-build_time: [1612627729, 588728000]
+build_time: [1612750271, 348821000]
 inputs:
   "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/AFIError.swift": [1612508281, 940443025]
   "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/Image.swift": [1612508281, 941074259]

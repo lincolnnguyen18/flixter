@@ -275,7 +275,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="643"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ugq-Yb-hyN">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="552.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="565.33333333333337"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hQ0-L7-Q4s">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
@@ -295,11 +295,25 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Vd-Ri-H4Z">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Vd-Ri-H4Z" customClass="PaddingLabel" customModule="flixter" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="532" width="382" height="20.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomInset">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </label>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yso-3q-4JQ">
                                                 <rect key="frame" x="16" y="281" width="147" height="228"/>
@@ -315,7 +329,7 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="6Vd-Ri-H4Z" secondAttribute="bottom" id="29d-dl-2dy"/>
+                                            <constraint firstAttribute="bottom" secondItem="6Vd-Ri-H4Z" secondAttribute="bottom" constant="13" id="29d-dl-2dy"/>
                                             <constraint firstAttribute="trailing" secondItem="hQ0-L7-Q4s" secondAttribute="trailing" id="4af-qw-pmg"/>
                                             <constraint firstItem="8rv-qR-xfe" firstAttribute="leading" secondItem="Yso-3q-4JQ" secondAttribute="trailing" constant="12" id="EJF-bU-xmK"/>
                                             <constraint firstItem="6Vd-Ri-H4Z" firstAttribute="leading" secondItem="Ugq-Yb-hyN" secondAttribute="leading" constant="16" id="FKM-ba-30I"/>
@@ -323,7 +337,7 @@
                                             <constraint firstItem="hQ0-L7-Q4s" firstAttribute="leading" secondItem="Ugq-Yb-hyN" secondAttribute="leading" id="JBS-Lf-g6b"/>
                                             <constraint firstItem="8rv-qR-xfe" firstAttribute="top" secondItem="vjL-Bm-XiX" secondAttribute="bottom" constant="8" id="KD5-9V-wpK"/>
                                             <constraint firstItem="Yso-3q-4JQ" firstAttribute="top" secondItem="hQ0-L7-Q4s" secondAttribute="bottom" constant="-133" id="SeY-W6-DMc"/>
-                                            <constraint firstItem="6Vd-Ri-H4Z" firstAttribute="top" secondItem="8rv-qR-xfe" secondAttribute="bottom" constant="54.670000000000002" id="ZLk-oP-F0u"/>
+                                            <constraint firstItem="6Vd-Ri-H4Z" firstAttribute="top" secondItem="hQ0-L7-Q4s" secondAttribute="bottom" constant="118" placeholder="YES" id="UYM-IN-29y"/>
                                             <constraint firstItem="hQ0-L7-Q4s" firstAttribute="top" secondItem="Ugq-Yb-hyN" secondAttribute="top" id="cBj-s1-rOC"/>
                                             <constraint firstItem="vjL-Bm-XiX" firstAttribute="leading" secondItem="Yso-3q-4JQ" secondAttribute="trailing" constant="12" id="cxm-YC-yGS"/>
                                             <constraint firstItem="Yso-3q-4JQ" firstAttribute="leading" secondItem="Ugq-Yb-hyN" secondAttribute="leading" constant="16" id="gZT-yM-Ahb"/>
@@ -338,7 +352,7 @@
                                     <constraint firstItem="Ugq-Yb-hyN" firstAttribute="trailing" secondItem="nJk-1O-RBy" secondAttribute="trailing" id="O0x-cl-Vve"/>
                                     <constraint firstItem="Ugq-Yb-hyN" firstAttribute="width" secondItem="MsK-Yg-x7o" secondAttribute="width" id="chu-4l-wdl"/>
                                     <constraint firstItem="Ugq-Yb-hyN" firstAttribute="top" secondItem="nJk-1O-RBy" secondAttribute="top" id="eP5-Do-1cJ"/>
-                                    <constraint firstAttribute="bottom" secondItem="Ugq-Yb-hyN" secondAttribute="bottom" constant="50" id="kYk-5Q-bVH"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ugq-Yb-hyN" secondAttribute="bottom" id="kYk-5Q-bVH"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="nJk-1O-RBy"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="MsK-Yg-x7o"/>
@@ -363,8 +377,7 @@
                         <outlet property="posterView" destination="Yso-3q-4JQ" id="S8E-l0-oG7"/>
                         <outlet property="releaseDateLabel" destination="8rv-qR-xfe" id="rFL-nE-IMx"/>
                         <outlet property="synopLeft" destination="FKM-ba-30I" id="7B5-Z1-Jn1"/>
-                        <outlet property="synopTop" destination="ZLk-oP-F0u" id="sUU-m2-A9E"/>
-                        <outlet property="synopsisLabel" destination="6Vd-Ri-H4Z" id="xUz-gS-yDM"/>
+                        <outlet property="synopsisLabel" destination="6Vd-Ri-H4Z" id="kqX-Kg-gU4"/>
                         <outlet property="titleLabel" destination="vjL-Bm-XiX" id="URS-bm-Qsj"/>
                     </connections>
                 </viewController>

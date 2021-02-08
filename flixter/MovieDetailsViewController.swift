@@ -13,14 +13,13 @@ class MovieDetailsViewController: UIViewController {
     @IBOutlet weak var backdropView: UIImageView!
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var synopsisLabel: UILabel!
+    // @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet weak var synopsisLabel: PaddingLabel!
     @IBOutlet weak var releaseDateLabel: UILabel!
     @IBOutlet weak var backdropConstraint: NSLayoutConstraint!
     @IBOutlet weak var posterDistance: NSLayoutConstraint!
     @IBOutlet weak var synopLeft: NSLayoutConstraint!
     @IBOutlet weak var synopTop: NSLayoutConstraint!
-    
-    
     var movie: [String:Any]!
     
     // override func loadView() {
@@ -93,6 +92,12 @@ class MovieDetailsViewController: UIViewController {
     }
     
     private func updateDetailView(transitionSize: CGSize?) {
+        // synopTop.isActive = false
+        
+        let synopToDate = synopsisLabel.topAnchor.constraint(equalTo: releaseDateLabel.bottomAnchor, constant: 8)
+        let synopToBackdrop = synopsisLabel.topAnchor.constraint(equalTo: backdropView.bottomAnchor, constant: 70)
+        let titleConstraint = titleLabel.heightAnchor.constraint(equalToConstant: 26.33)
+        
         print("updateDetailView called")
         var size = UIScreen.main.bounds.size
         if transitionSize != nil {
@@ -105,7 +110,12 @@ class MovieDetailsViewController: UIViewController {
             backdropConstraint = backdropConstraint.setMultiplier(multiplier: newMultiplier)
             posterDistance.constant = -133
             synopLeft.constant = 16
-            synopTop.constant = 54.67
+            // synopTop.constant = 54.67
+            synopToDate.isActive = false
+            synopToBackdrop.isActive = true
+            titleConstraint.isActive = false
+            titleLabel.numberOfLines = 2
+            synopsisLabel.topInset = 40
         } else {
             print("Landscape: \(size.width) X \(size.height)")
             // print("Detail \(size.width)")
@@ -114,8 +124,15 @@ class MovieDetailsViewController: UIViewController {
             backdropConstraint = backdropConstraint.setMultiplier(multiplier: newMultiplier)
             posterDistance.constant = -50
             synopLeft.constant = 163 + 12
-            synopTop.constant = 8
+            // synopTop.constant = 8
+            synopToDate.isActive = true
+            synopToBackdrop.isActive = false
+            titleConstraint.isActive = true
+            titleLabel.numberOfLines = 1
+            synopsisLabel.topInset = 0
         }
+        // posterView.heightAnchor.constraint(equalToConstant: 228).isActive = true
+        // posterView.widthAnchor.constraint(equalToConstant: 147).isActive = true
         UIView.animate(withDuration: 0.1) {
             self.backdropView.updateConstraints()
             self.posterView.updateConstraints()

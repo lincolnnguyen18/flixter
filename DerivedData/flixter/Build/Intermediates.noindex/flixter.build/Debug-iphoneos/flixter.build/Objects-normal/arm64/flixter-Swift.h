@@ -236,6 +236,7 @@ SWIFT_CLASS("_TtC7flixter9MovieCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class PaddingLabel;
 @class NSLayoutConstraint;
 @protocol UIViewControllerTransitionCoordinator;
 @class UIStoryboardSegue;
@@ -246,7 +247,7 @@ SWIFT_CLASS("_TtC7flixter26MovieDetailsViewController")
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified backdropView;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified posterView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified synopsisLabel;
+@property (nonatomic, weak) IBOutlet PaddingLabel * _Null_unspecified synopsisLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified releaseDateLabel;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified backdropConstraint;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified posterDistance;
@@ -305,6 +306,15 @@ SWIFT_CLASS("_TtC7flixter20MoviesViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+SWIFT_CLASS("_TtC7flixter12PaddingLabel")
+@interface PaddingLabel : UILabel
+- (void)drawTextInRect:(CGRect)rect;
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
 
 @class UIWindow;
 @class UIScene;
