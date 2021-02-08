@@ -14,7 +14,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		PFdh9Ql46+GbvPyfdXJtGhGpX5o=
+		+TGZi+Tkhvfo3HEfN0iKcThyWaU=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		k4boOh5EDN0Y6ZBMtFmFbg57bLY=
+		FAQZidtwV2J+KKog+oNKpl9xmpY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ADA-tG-lFo-view-yMK-Ix-gcz.nib</key>
 		<data>
-		XeTlPbk1A5MTHgsKfyGbGK/iGgE=
+		D8G27hK/Hs3T3HPjQWnMcnlP8VU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		pqF6zHP59w6p8J2h0t2aRKz7p1k=
+		OrYKxLIXL4+nlarSqugjzoemrrA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -38,27 +38,27 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/LJU-en-hmF-view-LH7-Ht-4m2.nib</key>
 		<data>
-		A3LSWwJ0Qq+qFGzcdoMvVKndSpM=
+		GEiuQstkJ/JtSjtHKtEfCr6CJxo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-hvM-76-hlf.nib</key>
 		<data>
-		qrwqFhx4J5s0Orfo0ZHtzcXwBrw=
+		qHfyfug0vQbRkWQTWbYdPIRijSM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-kpc-LV-w43.nib</key>
 		<data>
-		WIm9BwNtPi3lCSaSoTVdk0ykNQg=
+		lxMfrxLNe2i2nTq8pBCoDdVN2TE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-mHq-3e-pSe.nib</key>
 		<data>
-		fjZvhuaGXSqPghygFxs3HpcCAD0=
+		bZLeem3qkImO5Lr86vgIgrdj2NY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mHq-3e-pSe-view-HIe-lg-Sm1.nib</key>
 		<data>
-		7bG8/EAco5x5MDo8VWDR1YLd4Ts=
+		Rzu/ytlkAofXJ+roM45fqQso7mY=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		78YZ1cKAmkZQdCcTuoQB7FkGRPE=
+		2PNMlDIRtIMIJBHqhOlGiyFKEsA=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/AlamofireImage.framework/AlamofireImage</key>
 		<data>
-		qx35qaVgcGY5vsh4WsSOEwJldhc=
+		U65PS31NLpHrrVxQTkayA7H+1R8=
 		</data>
 		<key>Frameworks/AlamofireImage.framework/Info.plist</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		xXoA225Rtfx81KvbQs17axoND7k=
+		RJ9mJra+rZ+7BYtCyvpTZ5AqrBo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RQPrej5eqCB6ZJI3Jz7PbJElFmhORWDKVxRIs7NMLQU=
+			pInNU0qCp0srrqIr2uDD22KzFB+zDG/6a9PjDOTB+Fo=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -127,21 +127,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YZvFL+2B4Z2fQaQ6nfTFKU2E6CEX1IyQ8VS/WJUqYqM=
+			Ra8Cz3X8gZQggY+McEFqJZ9mn7ySoTWXmnECGYU8v4M=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/ADA-tG-lFo-view-yMK-Ix-gcz.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lPRF4utf+R/MHFf4F0yiaX6rTaoMpCVP8q2fcXR7OKE=
+			kd1rvUf/303LaNKcJ/tISii6PTyo1aPIppqQ/jBTFvc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8Gzgfk9nHPbxdTvhkUAmDQ93RCy+/HmwAghXl5wyEv8=
+			bsBT4zOXT4ur7vIjx47tKJt1a5ZAQZ5sqGiBdfbrBeI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -155,42 +155,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C1MmkXBA7kAdD/s/kQd5crlMYLXMDGN4GHJ6vWncSNg=
+			thHI6w0pccBexwqOKrI2sXc/B/hgjEhEsJCzlevoWOI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-hvM-76-hlf.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G1o9DvLYYYrPk7NN7br8nkv73Gur4opo1DZeo9u3srA=
+			Hp/QPVGB/94bd347NbD0uobhJS4czbjHtkuJMvUwOks=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-kpc-LV-w43.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qKs9CswgZKo0H0YGmdBkvovA6OADPLeEL7RCr2wlsKY=
+			MbrcWjuY3MxPxPrcuHca3eI9r8QLN0ygyUzH/WnjJys=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-mHq-3e-pSe.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vw7wYHCQ4yFzPWpV9COh062vK/xe+sFetAWfmR3WHCs=
+			8jfh7hOyiM6urr9e/X+8r67LvYNDbAQqsXyyINY/rDQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/mHq-3e-pSe-view-HIe-lg-Sm1.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VFu+xzkkP5iL8DY+cuBeamDHTcZueEisOc8Mn2R4gg4=
+			gURrtkDubIZGlyRk3hgh0ozJDguLPphuE6mZ41zhU5c=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/4egjSDBczdiHX7I76ceKJ2bLCcZyecua5eZzI3qwmA=
+			VQjz/gJf2sMoN1GVhFIOh24zQRqH3uwppkn0S6t2xag=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -211,7 +211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RbkjVjx+hm++NxQnKxxziFeREQ+m2Fs2uzGWL+Cd/H0=
+			zKstw0KchQO5suxofgLbU8nILJpOUKLTSEoAtYB5edQ=
 			</data>
 		</dict>
 		<key>Frameworks/AlamofireImage.framework/Info.plist</key>
@@ -232,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lb3RdrQhUw/+Mj/ZqhzAnu75XK5OlOnv60N1j8GINb8=
+			5K4VbHVSV1Uq1wEkRO1xQ8ZJlIU8mvPCmKFNFxOPrYk=
 			</data>
 		</dict>
 	</dict>

@@ -39,7 +39,7 @@ depends-member:
 - !private ["9Alamofire0A8ExtendedP", "default"]
 - !private ["9Alamofire0A8ExtendedP", "subscript"]
 - !private ["Sa", "subscript"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "init"]
 - !private ["SK", "subscript"]
 - !private ["So15CALayerDelegateP", "load"]
@@ -68,10 +68,10 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s7CVarArgP", "webView"]
 - !private ["So23NSURLRequestCachePolicyV", "reloadIgnoringLocalCacheData"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "init"]
 - !private ["Sl", "subscript"]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["SL", "init"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
@@ -166,16 +166,16 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "load"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["SH", "JSONSerialization"]
 - !private ["SH", "OperationQueue"]
@@ -201,7 +201,7 @@ depends-member:
 - !private ["SH", "viewDidLoad"]
 - !private ["SH", "webView"]
 - !private ["So19NSJSONSerializationC", "jsonObject"]
-- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - ["7flixter26MovieTrailerViewControllerC", "Int"]
@@ -225,10 +225,9 @@ depends-member:
 - !private ["SM", ""]
 - !private ["SM", "subscript"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
-- ["So8NSCodingP", "Int"]
 - !private ["So8NSCodingP", "JSONSerialization"]
 - !private ["So8NSCodingP", "OperationQueue"]
-- ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "String"]
 - !private ["So8NSCodingP", "URL"]
 - !private ["So8NSCodingP", "URLRequest"]
 - !private ["So8NSCodingP", "URLSession"]
@@ -247,10 +246,9 @@ depends-member:
 - ["So8NSCodingP", "webView"]
 - !private ["So9NSCopyingP", "default"]
 - !private ["So9NSCopyingP", "resume"]
-- ["So26NSExtensionRequestHandlingP", "Int"]
 - !private ["So26NSExtensionRequestHandlingP", "JSONSerialization"]
 - !private ["So26NSExtensionRequestHandlingP", "OperationQueue"]
-- ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
 - !private ["So26NSExtensionRequestHandlingP", "URL"]
 - !private ["So26NSExtensionRequestHandlingP", "URLRequest"]
 - !private ["So26NSExtensionRequestHandlingP", "URLSession"]
@@ -295,12 +293,11 @@ depends-member:
 - !private ["So8NSObjectC", "sessionWithConfiguration"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectC", "webView"]
-- ["So8NSObjectP", "Int"]
 - !private ["So8NSObjectP", "JSONObjectWithData"]
 - !private ["So8NSObjectP", "JSONObjectWithStream"]
 - !private ["So8NSObjectP", "JSONSerialization"]
 - !private ["So8NSObjectP", "OperationQueue"]
-- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "String"]
 - !private ["So8NSObjectP", "URL"]
 - !private ["So8NSObjectP", "URLRequest"]
 - !private ["So8NSObjectP", "URLSession"]
@@ -349,7 +346,7 @@ depends-member:
 - !private ["So20NSJSONReadingOptionsV", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["7Combine9SchedulerP", "main"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "init"]
 - !private ["ST", "subscript"]
 - !private ["s10SetAlgebraP", "ArrayLiteralElement"]
@@ -362,11 +359,11 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
 - !private ["Sy", "init"]
-- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["s16TextOutputStreamP", "init"]
-- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", ""]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "load"]
 - !private ["So29UIAccessibilityIdentificationP", "loadData"]
@@ -374,10 +371,9 @@ depends-member:
 - !private ["So12UIAppearanceP", "load"]
 - !private ["So12UIAppearanceP", "loadData"]
 - !private ["So12UIAppearanceP", "loadRequest"]
-- ["So21UIAppearanceContainerP", "Int"]
 - !private ["So21UIAppearanceContainerP", "JSONSerialization"]
 - !private ["So21UIAppearanceContainerP", "OperationQueue"]
-- ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "String"]
 - !private ["So21UIAppearanceContainerP", "URL"]
 - !private ["So21UIAppearanceContainerP", "URLRequest"]
 - !private ["So21UIAppearanceContainerP", "URLSession"]
@@ -394,10 +390,9 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "print"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "webView"]
-- ["So18UIContentContainerP", "Int"]
 - !private ["So18UIContentContainerP", "JSONSerialization"]
 - !private ["So18UIContentContainerP", "OperationQueue"]
-- ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "String"]
 - !private ["So18UIContentContainerP", "URL"]
 - !private ["So18UIContentContainerP", "URLRequest"]
 - !private ["So18UIContentContainerP", "URLSession"]
@@ -417,10 +412,9 @@ depends-member:
 - !private ["So13UIDynamicItemP", "load"]
 - !private ["So13UIDynamicItemP", "loadData"]
 - !private ["So13UIDynamicItemP", "loadRequest"]
-- ["So18UIFocusEnvironmentP", "Int"]
 - !private ["So18UIFocusEnvironmentP", "JSONSerialization"]
 - !private ["So18UIFocusEnvironmentP", "OperationQueue"]
-- ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "String"]
 - !private ["So18UIFocusEnvironmentP", "URL"]
 - !private ["So18UIFocusEnvironmentP", "URLRequest"]
 - !private ["So18UIFocusEnvironmentP", "URLSession"]
@@ -446,10 +440,9 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "load"]
 - !private ["So24UILargeContentViewerItemP", "loadData"]
 - !private ["So24UILargeContentViewerItemP", "loadRequest"]
-- ["So30UIPasteConfigurationSupportingP", "Int"]
 - !private ["So30UIPasteConfigurationSupportingP", "JSONSerialization"]
 - !private ["So30UIPasteConfigurationSupportingP", "OperationQueue"]
-- ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
 - !private ["So30UIPasteConfigurationSupportingP", "URL"]
 - !private ["So30UIPasteConfigurationSupportingP", "URLRequest"]
 - !private ["So30UIPasteConfigurationSupportingP", "URLSession"]
@@ -488,10 +481,9 @@ depends-member:
 - !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "webView"]
-- ["So30UIResponderStandardEditActionsP", "Int"]
 - !private ["So30UIResponderStandardEditActionsP", "JSONSerialization"]
 - !private ["So30UIResponderStandardEditActionsP", "OperationQueue"]
-- ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
 - !private ["So30UIResponderStandardEditActionsP", "URL"]
 - !private ["So30UIResponderStandardEditActionsP", "URLRequest"]
 - !private ["So30UIResponderStandardEditActionsP", "URLSession"]
@@ -509,10 +501,9 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "webView"]
-- ["So16UIStateRestoringP", "Int"]
 - !private ["So16UIStateRestoringP", "JSONSerialization"]
 - !private ["So16UIStateRestoringP", "OperationQueue"]
-- ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "String"]
 - !private ["So16UIStateRestoringP", "URL"]
 - !private ["So16UIStateRestoringP", "URLRequest"]
 - !private ["So16UIStateRestoringP", "URLSession"]
@@ -526,10 +517,9 @@ depends-member:
 - !private ["So16UIStateRestoringP", "print"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "webView"]
-- ["So18UITraitEnvironmentP", "Int"]
 - !private ["So18UITraitEnvironmentP", "JSONSerialization"]
 - !private ["So18UITraitEnvironmentP", "OperationQueue"]
-- ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "String"]
 - !private ["So18UITraitEnvironmentP", "URL"]
 - !private ["So18UITraitEnvironmentP", "URLRequest"]
 - !private ["So18UITraitEnvironmentP", "URLSession"]
@@ -546,10 +536,9 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "print"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "webView"]
-- ["So23UIUserActivityRestoringP", "Int"]
 - !private ["So23UIUserActivityRestoringP", "JSONSerialization"]
 - !private ["So23UIUserActivityRestoringP", "OperationQueue"]
-- ["So23UIUserActivityRestoringP", "String"]
+- !private ["So23UIUserActivityRestoringP", "String"]
 - !private ["So23UIUserActivityRestoringP", "URL"]
 - !private ["So23UIUserActivityRestoringP", "URLRequest"]
 - !private ["So23UIUserActivityRestoringP", "URLSession"]
@@ -603,11 +592,11 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "init"]
@@ -664,12 +653,12 @@ depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - !private "9Alamofire0A8ExtendedP"
 - !private "Sa"
-- "SK"
+- !private "SK"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "So23NSURLRequestCachePolicyV"
-- "Sl"
-- "SL"
+- !private "Sl"
+- !private "SL"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -683,15 +672,15 @@ depends-nominal:
 - !private "s5ErrorP"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - !private "So19NSJSONSerializationC"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "7flixter26MovieTrailerViewControllerC"
 - !private "SM"
@@ -712,14 +701,14 @@ depends-nominal:
 - !private "So20NSJSONReadingOptionsV"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "7Combine9SchedulerP"
-- "ST"
+- !private "ST"
 - !private "s10SetAlgebraP"
 - !private "Sx"
 - !private "SS"
 - !private "s27StringInterpolationProtocolP"
 - !private "Sy"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -751,10 +740,10 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"

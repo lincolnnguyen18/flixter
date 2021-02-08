@@ -31,7 +31,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
             layout.itemSize = CGSize(width: width, height: width * 1.5)
         } else {
             print("Landscape: \(size.width) X \(size.height)")
-            let width = (size.height - layout.minimumInteritemSpacing * 3) / 4
+            let width = (size.width - layout.minimumInteritemSpacing * 3) / 4
             layout.itemSize = CGSize(width: width, height: width * 1.5)
         }
         
@@ -77,7 +77,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         if UIDevice.current.orientation.isLandscape {
             print("Landscape: \(size.width) X \(size.height)")
             // print("\(size.width)")
-            let width = (size.height - layout.minimumInteritemSpacing * 3) / 4
+            let width = (size.width - layout.minimumInteritemSpacing * 3) / 4
             layout.itemSize = CGSize(width: width, height: width * 1.5)
         } else {
             print("Portrait: \(size.width) X \(size.height)")
