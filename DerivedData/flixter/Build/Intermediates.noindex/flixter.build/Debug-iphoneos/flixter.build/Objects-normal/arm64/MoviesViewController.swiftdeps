@@ -1259,6 +1259,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "indexPathForPreferredFocusedView"]
 - ["So20UIScrollViewDelegateP", "indexPathForPreferredFocusedViewInTableView"]
 - ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "movie"]
 - ["So20UIScrollViewDelegateP", "movies"]
 - ["So20UIScrollViewDelegateP", "numberOfSections"]
 - ["So20UIScrollViewDelegateP", "numberOfSectionsInTableView"]

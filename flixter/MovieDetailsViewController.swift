@@ -8,7 +8,7 @@
 import UIKit
 import AlamofireImage
 
-class MovieDetailsViewController: UIViewController {
+class MovieDetailsViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var backdropView: UIImageView!
     @IBOutlet weak var posterView: UIImageView!
@@ -19,7 +19,7 @@ class MovieDetailsViewController: UIViewController {
     @IBOutlet weak var backdropConstraint: NSLayoutConstraint!
     @IBOutlet weak var posterDistance: NSLayoutConstraint!
     @IBOutlet weak var synopLeft: NSLayoutConstraint!
-    @IBOutlet weak var synopTop: NSLayoutConstraint!
+    @IBOutlet weak var scrollView: UIScrollView!
     var movie: [String:Any]!
     
     // override func loadView() {
@@ -34,6 +34,10 @@ class MovieDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        scrollView.delegate = self
+        scrollView.showsVerticalScrollIndicator = false
+        
         updateDetailView(transitionSize: nil)
         // Do any additional setup after loading the view.
         print(movie["title"] ?? "No title available.")
@@ -89,6 +93,26 @@ class MovieDetailsViewController: UIViewController {
         let movieTrailerViewControllerNavController = segue.destination as! UINavigationController
         let movieTrailerViewController = movieTrailerViewControllerNavController.topViewController as! MovieTrailerViewController
         movieTrailerViewController.movieId = movieId
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if (scrollView.contentOffset.y < 0) {
+            // scrollView.isScrollEnabled = false
+            // let anim = UIViewPropertyAnimator(duration: 1, dampingRatio: 0.5) {
+            //     scrollView.isScrollEnabled = false
+            //     scrollView.setContentOffset(CGPoint(x: 0, y: 0), animated: false)
+            //     scrollView.isScrollEnabled = true
+            // }
+            // anim.startAnimation()
+            print("scrolled past top!")
+            scrollView.isScrollEnabled = false
+            scrollView.bounces = false
+        } else {
+            scrollView.isScrollEnabled = true
+            scrollView.bounces = true
+        }
+        // scrollView.bounces = true
+        // print("scrolling past top!")
     }
     
     private func updateDetailView(transitionSize: CGSize?) {

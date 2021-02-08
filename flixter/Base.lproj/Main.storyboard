@@ -376,6 +376,7 @@
                         <outlet property="posterDistance" destination="SeY-W6-DMc" id="QNt-Es-O9K"/>
                         <outlet property="posterView" destination="Yso-3q-4JQ" id="S8E-l0-oG7"/>
                         <outlet property="releaseDateLabel" destination="8rv-qR-xfe" id="rFL-nE-IMx"/>
+                        <outlet property="scrollView" destination="qFJ-LY-M97" id="B2N-nb-ahM"/>
                         <outlet property="synopLeft" destination="FKM-ba-30I" id="7B5-Z1-Jn1"/>
                         <outlet property="synopsisLabel" destination="6Vd-Ri-H4Z" id="kqX-Kg-gU4"/>
                         <outlet property="titleLabel" destination="vjL-Bm-XiX" id="URS-bm-Qsj"/>

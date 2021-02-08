@@ -238,12 +238,13 @@ SWIFT_CLASS("_TtC7flixter9MovieCell")
 
 @class PaddingLabel;
 @class NSLayoutConstraint;
+@class UIScrollView;
 @protocol UIViewControllerTransitionCoordinator;
 @class UIStoryboardSegue;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC7flixter26MovieDetailsViewController")
-@interface MovieDetailsViewController : UIViewController
+@interface MovieDetailsViewController : UIViewController <UIScrollViewDelegate>
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified backdropView;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified posterView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLabel;
@@ -252,10 +253,11 @@ SWIFT_CLASS("_TtC7flixter26MovieDetailsViewController")
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified backdropConstraint;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified posterDistance;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified synopLeft;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified synopTop;
+@property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified scrollView;
 - (void)viewDidLoad;
 - (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id <UIViewControllerTransitionCoordinator> _Nonnull)coordinator;
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

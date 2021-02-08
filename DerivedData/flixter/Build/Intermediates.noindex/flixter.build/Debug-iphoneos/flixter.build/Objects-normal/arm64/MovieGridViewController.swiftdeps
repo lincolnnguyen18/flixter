@@ -1572,6 +1572,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "indexTitles"]
 - ["So20UIScrollViewDelegateP", "indexTitlesForCollectionView"]
 - ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "movie"]
 - ["So20UIScrollViewDelegateP", "movies"]
 - ["So20UIScrollViewDelegateP", "numberOfSections"]
 - ["So20UIScrollViewDelegateP", "numberOfSectionsInCollectionView"]

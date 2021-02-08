@@ -62,7 +62,7 @@
 			<key>uniqueIdentifier</key>
 			<string>C564138C-06CC-4F42-898E-F27B546D120B</string>
 		</dict>
-		<key>DB3F933F-E211-490A-9F93-4226FE182E6C</key>
+		<key>CDC23A2B-9ABC-495F-BC06-73B3833B4CE7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>DB3F933F-E211-490A-9F93-4226FE182E6C.xcactivitylog</string>
+			<string>CDC23A2B-9ABC-495F-BC06-73B3833B4CE7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>flixter-frqdedwhjmzvorcjwpaymoxljtks</string>
 			<key>timeStartedRecording</key>
-			<real>634444639.26392603</real>
+			<real>634449004.709517</real>
 			<key>timeStoppedRecording</key>
-			<real>634444645.63690102</real>
+			<real>634449006.60443997</real>
 			<key>title</key>
 			<string>Build target flixter</string>
 			<key>uniqueIdentifier</key>
-			<string>DB3F933F-E211-490A-9F93-4226FE182E6C</string>
+			<string>CDC23A2B-9ABC-495F-BC06-73B3833B4CE7</string>
 		</dict>
 		<key>DD21EB2B-5756-4335-84D4-6D964DE394DF</key>
 		<dict>
