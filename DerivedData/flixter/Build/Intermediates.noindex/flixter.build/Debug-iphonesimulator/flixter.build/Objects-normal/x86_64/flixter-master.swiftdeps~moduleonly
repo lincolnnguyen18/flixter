@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "a043577d1a7bd3cd73b58824351705b9"
+build_time: [1612767013, 331104000]
+inputs:
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/MovieDetailsViewController.swift": [1612767012, 29205764]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/AppDelegate.swift": [1612501907, 837025047]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/MovieTrailerViewController.swift": [1612680679, 593093387]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/SceneDelegate.swift": [1612501907, 849683193]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/MovieCell.swift": [1612506944, 121116419]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/MoviesViewController.swift": [1612724436, 551251267]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/PaddingLabel.swift": [1612750490, 732737771]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/MovieGridViewController.swift": [1612764570, 237065049]
+  "/Users/lincolnnguyen/Desktop/flixter/flixter/MovieGridCell.swift": [1612574659, 466443135]
