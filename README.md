@@ -15,7 +15,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [X] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-<img src="http://g.recordit.co/oyTNMWBNVI.gif"><br>
+<img src="http://g.recordit.co/k69a4dj6Nh.gif"><br>
 <img src="http://g.recordit.co/7wwvSiJXOg.gif"><br>
 
 ### Notes
@@ -37,7 +37,7 @@ Autolayout was pretty challenging.
 
 ### App Walkthrough GIF
 <img src="http://g.recordit.co/GK4RuXthz8.gif"><br>
-<img src="http://g.recordit.co/k69a4dj6Nh.gif"><br>
+<img src="http://g.recordit.co/oyTNMWBNVI.gif"><br>
 
 ### Notes
 Imported Alamofire instead of AlamofireImage. Wasted a bit of time on figuring that out but otherwise not too challenging so far. Interacting with the API and seeing the movies show up was fun though.
