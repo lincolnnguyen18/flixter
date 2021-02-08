@@ -1,0 +1,233 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TabBarController"
+provides-nominal:
+- "7flixter16TabBarControllerC"
+provides-member:
+- ["7flixter16TabBarControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "TabBarController"
+- "UITabBarController"
+depends-member:
+- ["SK", ""]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewControllers"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["Sl", ""]
+- ["SL", ""]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewControllers"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewControllers"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["SQ", ""]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewControllers"]
+- !private ["SQ", "viewDidLoad"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", ""]
+- !private ["SH", "view"]
+- !private ["SH", "viewControllers"]
+- !private ["SH", "viewDidLoad"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewControllers"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewControllers"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectC", "viewControllers"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewControllers"]
+- ["So8NSObjectP", "viewDidLoad"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- ["ST", ""]
+- !private ["ST", "makeIterator"]
+- ["7flixter16TabBarControllerC", ""]
+- ["7flixter16TabBarControllerC", "deinit"]
+- ["7flixter16TabBarControllerC", "init"]
+- !private ["7flixter16TabBarControllerC", "viewControllers"]
+- ["7flixter16TabBarControllerC", "viewDidLoad"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewControllers"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewControllers"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewControllers"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So11UIResponderC", "viewControllers"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewControllers"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewControllers"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITabBarControllerC", ""]
+- ["So18UITabBarControllerC", "init"]
+- !private ["So18UITabBarControllerC", "viewControllers"]
+- ["So18UITabBarControllerC", "viewDidLoad"]
+- ["So16UITabBarDelegateP", ""]
+- ["So16UITabBarDelegateP", "init"]
+- !private ["So16UITabBarDelegateP", "viewControllers"]
+- ["So16UITabBarDelegateP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewControllers"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewControllers"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["So16UIViewControllerC", "viewControllers"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewControllers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewControllers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "ST"
+- "7flixter16TabBarControllerC"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITabBarControllerC"
+- "So16UITabBarDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/simd.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/lincolnnguyen/Desktop/flixter/DerivedData/flixter/Build/Products/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/lincolnnguyen/Desktop/flixter/DerivedData/flixter/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/WebKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/lincolnnguyen/Desktop/flixter/DerivedData/flixter/Build/Products/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/lincolnnguyen/Desktop/flixter/DerivedData/flixter/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/lincolnnguyen/Desktop/flixter/DerivedData/flixter/Build/Products/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/lincolnnguyen/Desktop/flixter/DerivedData/flixter/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/lincolnnguyen/Desktop/flixter/DerivedData/flixter/Build/Products/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/lincolnnguyen/Desktop/flixter/DerivedData/flixter/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "13f0a1a87d5ebff064d31e72cef5d0af"

@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "83970faafdb14431281d511c1d9ac366"
+build_time: [1612770144, 465173000]
+inputs:
+  "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/AFIError.swift": [1612508281, 940443025]
+  "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/Image.swift": [1612508281, 941074259]
+  "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/ImageCache.swift": [1612508281, 939211365]
+  "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/ImageDownloader.swift": [1612508281, 942798913]
+  "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/ImageFilter.swift": [1612508281, 944962825]
+  "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1612508281, 944331424]
+  "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1612508281, 941997281]
+  "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1612508281, 939851182]
+  "/Users/lincolnnguyen/Desktop/flixter/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1612508281, 943624381]

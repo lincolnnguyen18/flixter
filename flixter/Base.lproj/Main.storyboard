@@ -48,7 +48,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yvX-Bz-kBq">
-                                                    <rect key="frame" x="129" y="52" width="257" height="119"/>
+                                                    <rect key="frame" x="129" y="52" width="257" height="20.333333333333329"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -62,7 +62,7 @@
                                                 <constraint firstItem="KtS-lM-S2I" firstAttribute="top" secondItem="4eM-Fb-xIE" secondAttribute="top" constant="6" id="bkH-A9-pAl"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="yvX-Bz-kBq" secondAttribute="trailing" constant="8" id="jdi-Zx-Hxv"/>
                                                 <constraint firstItem="KLA-Ry-LRD" firstAttribute="leading" secondItem="KtS-lM-S2I" secondAttribute="trailing" constant="8" id="mG4-DH-WbH"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="yvX-Bz-kBq" secondAttribute="bottom" constant="6" id="qLs-xR-yd6"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="yvX-Bz-kBq" secondAttribute="bottom" constant="6" id="qLs-xR-yd6"/>
                                                 <constraint firstItem="KtS-lM-S2I" firstAttribute="leading" secondItem="4eM-Fb-xIE" secondAttribute="leading" id="tiw-CH-7lW"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="KLA-Ry-LRD" secondAttribute="trailing" constant="8" id="vYV-SF-jXQ"/>
                                             </constraints>
@@ -98,7 +98,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="Nw4-3c-y0q">
             <objects>
-                <tabBarController id="kpc-LV-w43" sceneMemberID="viewController">
+                <tabBarController id="kpc-LV-w43" customClass="TabBarController" customModule="flixter" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1ag-c4-qdr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -217,9 +217,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mc3-ZI-mBf">
-                                <rect key="frame" x="0.0" y="56" width="414" height="680"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mc3-ZI-mBf">
+                                <rect key="frame" x="0.0" y="56" width="414" height="660"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <wkWebViewConfiguration key="configuration">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
@@ -229,6 +228,12 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jcv-Fs-mxY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mc3-ZI-mBf" firstAttribute="trailing" secondItem="Jcv-Fs-mxY" secondAttribute="trailing" id="4aa-KY-ths"/>
+                            <constraint firstItem="Mc3-ZI-mBf" firstAttribute="leading" secondItem="Jcv-Fs-mxY" secondAttribute="leading" id="5ZF-hs-Q1J"/>
+                            <constraint firstItem="Mc3-ZI-mBf" firstAttribute="bottom" secondItem="Jcv-Fs-mxY" secondAttribute="bottom" id="5gL-4U-GjC"/>
+                            <constraint firstItem="Mc3-ZI-mBf" firstAttribute="top" secondItem="Jcv-Fs-mxY" secondAttribute="top" id="S8I-Hc-qzp"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Trailer" id="PQK-Xx-fbb" customClass="movie">
                         <barButtonItem key="rightBarButtonItem" title="Close" id="kbP-8H-JpM">
@@ -395,7 +400,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="G87-Lx-yLd"/>
+        <segue reference="qnW-5B-XEO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="now_playing_tabbar_item" width="21" height="21"/>

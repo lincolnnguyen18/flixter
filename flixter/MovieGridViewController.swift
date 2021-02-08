@@ -10,6 +10,7 @@ import AlamofireImage
 
 class MovieGridViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     var movies = [[String:Any]]()
+    var flag = 0
     @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -55,6 +56,8 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
             }
         }
         task.resume()
+        view.layoutIfNeeded()
+        self.flag += 1
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
@@ -63,11 +66,11 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         let selectedIndex = tabBarController!.selectedIndex
         // print(selectedIndex)
         
-        if selectedIndex != 1 {
+        if selectedIndex != 1 && self.flag == 0 {
             return
         }
         
-        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+        let layout = self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout
     
         layout.minimumLineSpacing = 4
         layout.minimumInteritemSpacing = 4
@@ -103,6 +106,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
             }
         }
         task.resume()
+        view.layoutIfNeeded()
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
